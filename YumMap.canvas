@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"5c3a99ea63c1927b","type":"file","file":"Projects/ToyProject/YumMap.md","x":-580,"y":-220,"width":400,"height":400},
+		{"id":"ab382ac3aa14ee25","type":"file","file":"Projects/ToyProject/VUE project 생성.md","x":51,"y":273,"width":400,"height":400},
+		{"id":"4dc37f9e5ef17e85","type":"file","file":"Projects/ToyProject/PostgreSQL spring boot config 및 db 생성.md","x":80,"y":-460,"width":400,"height":400},
+		{"id":"b47db56b2e20614e","type":"file","file":"Projects/ToyProject/CDN fontawesome 적용.md","x":573,"y":556,"width":400,"height":400},
+		{"id":"65928e2709e124e4","x":1518,"y":758,"width":400,"height":400,"type":"file","file":"Projects/ToyProject/CSS 참고.md"}
+	],
+	"edges":[
+		{"id":"ef17e6e363457057","fromNode":"5c3a99ea63c1927b","fromSide":"top","toNode":"4dc37f9e5ef17e85","toSide":"left"},
+		{"id":"bb389d450bb3d49d","fromNode":"5c3a99ea63c1927b","fromSide":"bottom","toNode":"ab382ac3aa14ee25","toSide":"left"},
+		{"id":"b560e7e81e098b5c","fromNode":"ab382ac3aa14ee25","fromSide":"right","toNode":"b47db56b2e20614e","toSide":"top"},
+		{"id":"f5e8f26952caef15","fromNode":"b47db56b2e20614e","fromSide":"right","toNode":"65928e2709e124e4","toSide":"top"}
+	]
+}
