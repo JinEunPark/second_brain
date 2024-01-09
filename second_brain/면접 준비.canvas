@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"3275621d15fcfc7b","x":-1520,"y":-560,"width":400,"height":400,"type":"file","file":"Archive/파트리지 시스템 면점 후기.md"},
+		{"id":"24125954d2d89770","x":-2000,"y":-465,"width":250,"height":210,"type":"text","text":"면접에 필요한 것들을 혹시나 개발하가 찾게 된다면 정리해 봅시다"},
+		{"id":"4a8614a948ab7790","x":-1520,"y":-1360,"width":400,"height":400,"type":"file","file":"Archive/mustad.md"},
+		{"id":"42a3bdd6aff69a30","x":-1520,"y":-1920,"width":400,"height":400,"type":"file","file":"Archive/Anlab.md"}
+	],
+	"edges":[
+		{"id":"1b97cffdfc46e140","fromNode":"42a3bdd6aff69a30","fromSide":"top","toNode":"4a8614a948ab7790","toSide":"top"},
+		{"id":"64bec4da19e84764","fromNode":"4a8614a948ab7790","fromSide":"bottom","toNode":"3275621d15fcfc7b","toSide":"top"},
+		{"id":"42275c17a7ae89d9","fromNode":"24125954d2d89770","fromSide":"right","toNode":"3275621d15fcfc7b","toSide":"left"},
+		{"id":"ae2e7a60e67063f9","fromNode":"3275621d15fcfc7b","fromSide":"left","toNode":"24125954d2d89770","toSide":"right"}
+	]
+}
