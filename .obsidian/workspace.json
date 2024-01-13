@@ -13,6 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Resource/SQL/카테고리 별 도서 판매량 집계하기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e2c115c1fbf3dd3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcbe82e1e53470a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Resource/SQL/임시.md",
                 "mode": "source",
                 "backlinks": true,
@@ -70,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b3c1c512a1e9137e",
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/SQL/임시.md",
+                "file": "Resource/SQL/카테고리 별 도서 판매량 집계하기.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/SQL/임시.md",
+                "file": "Resource/SQL/카테고리 별 도서 판매량 집계하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/SQL/임시.md"
+                "file": "Resource/SQL/카테고리 별 도서 판매량 집계하기.md"
               }
             }
           }
@@ -150,6 +169,9 @@
   },
   "active": "3db5b4122ae32b0c",
   "lastOpenFiles": [
+    "Resource/SQL/임시.md",
+    "Resource/SQL/카테고리 별 도서 판매량 집계하기.md",
+    "Templates/Daily Programming.md",
     "Resource/SQL/오프라인 온라인 판매 데이터 통합하기.md",
     "Resource/SQL/서울에 위치한 식당 목록 출력하기.md",
     "Resource/SQL/강원도에 위치한 생산공장 목록 출력하기.md",
@@ -157,7 +179,6 @@
     "Resource/SQL/조건에 맞는 사용자와 총 거래금액 조회하기.md",
     "Resource/SQL/즐겨찾기가 가장 많은 식당 정보 출력하기.md",
     "Resource/SQL/카테고리별 도서 판매량 집계.md",
-    "Resource/SQL/임시.md",
     "Resource/SQL/가장먼저 들어온 동물.md",
     "Resource/오늘 푼 알고리즘 코드 임시.md",
     "Resource/SQL",
@@ -183,8 +204,6 @@
     "link_images",
     "Area/건강 및 식단 계획.md",
     "Resource/알고리즘/RGB.md",
-    "Resource/알고리즘/NQ.md",
-    "Resource/알고리즘/DP 원리와 센스.md",
     "스크린샷 2023-12-22 오후 2.09.52.png",
     "스크린샷 2023-12-18 오전 12.45.44.png",
     "스크린샷 2023-12-18 오전 12.40.16.png",
