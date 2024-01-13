@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "35af0fbbf23983af",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3db5b4122ae32b0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resource/SQL/가격대 별 상품 개수 구하기.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "e2c115c1fbf3dd3b",
         "type": "tabs",
         "children": [
@@ -105,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/SQL/가격대 별 상품 개수 구하기.md",
+                "file": "Resource/SQL/임시.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/SQL/가격대 별 상품 개수 구하기.md",
+                "file": "Resource/SQL/임시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/SQL/가격대 별 상품 개수 구하기.md"
+                "file": "Resource/SQL/임시.md"
               }
             }
           }
@@ -167,10 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3db5b4122ae32b0c",
+  "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/SQL/임시.md",
     "Resource/SQL/가격대 별 상품 개수 구하기.md",
+    "Resource/SQL/임시.md",
     "Resource/SQL/입양 시각 구하기(2).md",
     "Resource/SQL/입양 시각 구하기(1).md",
     "Resource/SQL/년, 월, 성별 별 상품 구매 회원 수 구하기.md",
