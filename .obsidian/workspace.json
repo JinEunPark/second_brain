@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/SQL/성분으로 구분한 아이스크림 총 주문량.md",
+                "file": "Resource/SQL/입양 시각 구하기(2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/SQL/임시.md",
+                "file": "Resource/SQL/입양 시각 구하기(2).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/SQL/임시.md",
+                "file": "Resource/SQL/입양 시각 구하기(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/SQL/임시.md"
+                "file": "Resource/SQL/입양 시각 구하기(2).md"
               }
             }
           }
@@ -167,10 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcbe82e1e53470a2",
+  "active": "3db5b4122ae32b0c",
   "lastOpenFiles": [
-    "Resource/SQL/성분으로 구분한 아이스크림 총 주문량.md",
     "Resource/SQL/임시.md",
+    "Resource/SQL/입양 시각 구하기(2).md",
+    "Resource/SQL/입양 시각 구하기(1).md",
+    "Resource/SQL/년, 월, 성별 별 상품 구매 회원 수 구하기.md",
+    "Resource/SQL/Untitled 1.md",
+    "Resource/SQL/식품분류별 가장 비싼 식품의 정보 조회하기.md",
+    "Resource/SQL/성분으로 구분한 아이스크림 총 주문량.md",
     "Resource/SQL/대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기.md",
     "Resource/SQL/Untitled.md",
     "Resource/SQL/자동차 대여 기록에서 대여중  대여 가능 여부 구분하기.md",
@@ -191,11 +196,6 @@
     "Resource/알고리즘/수 찾기.md",
     "Resource/알고리즘/유기농 배추.md",
     "Resource/알고리즘/가장 긴 증가하는 부분 수열.md",
-    "Resource/알고리즘/쉬운 계단 수.md",
-    "2024-01-09.md",
-    "Resource/알고리즘/파도반 수열.md",
-    "Resource/알고리즘/OX퀴즈.md",
-    "Resource/알고리즘/신나는 함수 실행.md",
     "Pasted image 20231218005433.png",
     "Pasted image 20231218003130.png",
     "Pasted image 20231218003016.png",
