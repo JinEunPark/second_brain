@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/SQL/Untitled 3.md",
+                "file": "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/SQL/Untitled 3.md",
+                "file": "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/SQL/Untitled 3.md",
+                "file": "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/SQL/Untitled 3.md"
+                "file": "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md"
               }
             }
           }
@@ -207,8 +207,9 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
+    "Resource/SQL/나이 정보가 없는 회원 수 구하기.md",
+    "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md",
     "Resource/SQL/임시.md",
-    "Resource/SQL/Untitled 3.md",
     "Resource/SQL/NULL 처리하기.md",
     "Resource/SQL/이름이 없는 동물의 아이디.md",
     "Resource/SQL/경기도에 위치한 식품창고 목록 출력하기.md",
@@ -234,7 +235,6 @@
     "Resource/SQL/서울에 위치한 식당 목록 출력하기.md",
     "Resource/SQL/강원도에 위치한 생산공장 목록 출력하기.md",
     "Resource/SQL/재구매가 일어난 상품과 회원 리스트 구하기.md",
-    "Resource/SQL/조건에 맞는 사용자와 총 거래금액 조회하기.md",
     "Resource/SQL",
     "Pasted image 20231218005433.png",
     "Pasted image 20231218003130.png",
