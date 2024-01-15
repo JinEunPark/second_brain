@@ -21,6 +21,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "fafdddcd97d44907",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf096f4c68520b34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resource/SQL/sql 문법 및 함수 총 정리.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/SQL/임시.md",
+                "file": "Resource/SQL/Untitled 3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/SQL/임시.md",
+                "file": "Resource/SQL/Untitled 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/SQL/임시.md"
+                "file": "Resource/SQL/Untitled 3.md"
               }
             }
           }
@@ -186,10 +205,14 @@
       }
     ]
   },
-  "active": "b0ef197f64f72c11",
+  "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/SQL/Untitled 3.md",
     "Resource/SQL/임시.md",
+    "Resource/SQL/Untitled 3.md",
+    "Resource/SQL/NULL 처리하기.md",
+    "Resource/SQL/이름이 없는 동물의 아이디.md",
+    "Resource/SQL/경기도에 위치한 식품창고 목록 출력하기.md",
+    "Resource/SQL/sql 문법 및 함수 총 정리.md",
     "Resource/SQL/Untitled 2.md",
     "Resource/SQL/오프라인 온라인 판매 데이터 통합하기.md",
     "Resource/오늘 푼 알고리즘 코드 임시.md",
@@ -212,11 +235,7 @@
     "Resource/SQL/강원도에 위치한 생산공장 목록 출력하기.md",
     "Resource/SQL/재구매가 일어난 상품과 회원 리스트 구하기.md",
     "Resource/SQL/조건에 맞는 사용자와 총 거래금액 조회하기.md",
-    "Resource/SQL/즐겨찾기가 가장 많은 식당 정보 출력하기.md",
-    "Resource/SQL/카테고리별 도서 판매량 집계.md",
-    "Resource/SQL/가장먼저 들어온 동물.md",
     "Resource/SQL",
-    "Resource/알고리즘/Untitled.md",
     "Pasted image 20231218005433.png",
     "Pasted image 20231218003130.png",
     "Pasted image 20231218003016.png",
