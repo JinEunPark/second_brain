@@ -13,7 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/알고리즘/3+2+1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5886a14063ff67d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07cc0cf5a60a86aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resource/알고리즘/1로 만들기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/알고리즘/3+2+1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/알고리즘/3+2+1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시.md"
+                "file": "Resource/알고리즘/3+2+1.md"
               }
             }
           }
@@ -150,6 +169,10 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
+    "Resource/알고리즘/임시.md",
+    "Resource/알고리즘/3+2+1.md",
+    "Resource/알고리즘/1로 만들기.md",
+    "Resource/알고리즘/Untitled 2.md",
     "Resource/알고리즘/Untitled 1.md",
     "Resource/SQL/상품을 구매한 회원 비율 구하기.md",
     "Resource/SQL/임시.md",
@@ -172,12 +195,8 @@
     "Resource/SQL/이름이 없는 동물의 아이디.md",
     "Resource/SQL/경기도에 위치한 식품창고 목록 출력하기.md",
     "Resource/SQL/Untitled 2.md",
-    "Resource/SQL/오프라인 온라인 판매 데이터 통합하기.md",
-    "Resource/오늘 푼 알고리즘 코드 임시.md",
-    "Resource/비즈테크아이 클라우드 운영 엔지니어 면접 준비.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
-    "Resource/SQL/입양 시각 구하기(2).md",
     "Resource/SQL",
     "Pasted image 20231218005433.png",
     "Pasted image 20231218003130.png",
