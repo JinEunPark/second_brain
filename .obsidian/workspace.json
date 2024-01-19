@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/3+2+1.md",
+                "file": "Resource/알고리즘/임시.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/1로 만들기.md",
+                "file": "Resource/알고리즘/Untitled 3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/3+2+1.md",
+                "file": "Resource/알고리즘/Untitled 3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/3+2+1.md",
+                "file": "Resource/알고리즘/Untitled 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/3+2+1.md"
+                "file": "Resource/알고리즘/Untitled 3.md"
               }
             }
           }
@@ -167,11 +167,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcbe82e1e53470a2",
+  "active": "07cc0cf5a60a86aa",
   "lastOpenFiles": [
+    "Resource/알고리즘/외톨이 알파벳.md",
+    "Resource/알고리즘/Untitled 3.md",
     "Resource/알고리즘/임시.md",
-    "Resource/알고리즘/3+2+1.md",
     "Resource/알고리즘/1로 만들기.md",
+    "Resource/알고리즘/Untitled.md",
+    "Resource/알고리즘/RGB.md",
+    "Resource/알고리즘/직사각형 채우기.md",
+    "Resource/알고리즘/3+2+1.md",
     "Resource/알고리즘/Untitled 2.md",
     "Resource/알고리즘/Untitled 1.md",
     "Resource/SQL/상품을 구매한 회원 비율 구하기.md",
@@ -190,11 +195,6 @@
     "Resource/SQL/특정 기간동안 대여 가능한 자동차들의 대여비용 구하기.md",
     "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md",
     "Resource/SQL/Untitled 3.md",
-    "Resource/SQL/나이 정보가 없는 회원 수 구하기.md",
-    "Resource/SQL/NULL 처리하기.md",
-    "Resource/SQL/이름이 없는 동물의 아이디.md",
-    "Resource/SQL/경기도에 위치한 식품창고 목록 출력하기.md",
-    "Resource/SQL/Untitled 2.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
