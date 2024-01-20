@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/유전법칙.md",
+                "file": "Resource/알고리즘/실습용 로봇.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/유전법칙.md",
+                "file": "Resource/알고리즘/실습용 로봇.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/유전법칙.md",
+                "file": "Resource/알고리즘/실습용 로봇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/유전법칙.md"
+                "file": "Resource/알고리즘/실습용 로봇.md"
               }
             }
           }
@@ -169,17 +169,20 @@
   },
   "active": "07cc0cf5a60a86aa",
   "lastOpenFiles": [
+    "Resource/알고리즘/운영체제.md",
+    "Resource/알고리즘/실습용 로봇.md",
     "Resource/알고리즘/임시.md",
+    "Resource/알고리즘/Untitled 4.md",
+    "Resource/알고리즘/Untitled 1.md",
     "Resource/알고리즘/유전법칙.md",
+    "Resource/알고리즘/Untitled 3.md",
     "Resource/알고리즘/체육대회.md",
     "Resource/알고리즘/외톨이 알파벳.md",
     "Resource/알고리즘/1로 만들기.md",
-    "Resource/알고리즘/Untitled.md",
     "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/직사각형 채우기.md",
     "Resource/알고리즘/3+2+1.md",
     "Resource/알고리즘/Untitled 2.md",
-    "Resource/알고리즘/Untitled 1.md",
     "Resource/SQL/상품을 구매한 회원 비율 구하기.md",
     "Resource/SQL/임시.md",
     "Resource/SQL/상품 별 오프라인 매출 구하기.md",
@@ -192,9 +195,6 @@
     "Resource/SQL/Untitled 5.md",
     "Resource/SQL/Untitled 4.md",
     "Resource/SQL/조건에 맞는 도서와 저자 리스트 출력하기.md",
-    "Resource/SQL/5월 식품들의 총매출 조회하기.md",
-    "Resource/SQL/특정 기간동안 대여 가능한 자동차들의 대여비용 구하기.md",
-    "Resource/SQL/주문량이 많은 아이스크림들 조회하기.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
