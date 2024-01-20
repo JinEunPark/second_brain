@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/알고리즘/DP 원리와 센스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/카페 확장.md",
+                "file": "Resource/알고리즘/DP 원리와 센스.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/카페 확장.md",
+                "file": "Resource/알고리즘/DP 원리와 센스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/카페 확장.md"
+                "file": "Resource/알고리즘/DP 원리와 센스.md"
               }
             }
           }
@@ -167,11 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07cc0cf5a60a86aa",
+  "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/알고리즘/신입사원 교육.md",
-    "Resource/알고리즘/카페 확장.md",
     "Resource/알고리즘/임시.md",
+    "Resource/알고리즘/카페 확장.md",
+    "Resource/알고리즘/신입사원 교육.md",
     "Resource/알고리즘/실습용로봇.md",
     "Resource/알고리즘/운영체제.md",
     "Resource/알고리즘/실습용 로봇.md",
