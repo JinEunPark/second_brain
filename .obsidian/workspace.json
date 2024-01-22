@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/단지번호붙이기 성공.md",
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "순열",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/단지번호붙이기 성공.md",
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/단지번호붙이기 성공.md",
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/단지번호붙이기 성공.md"
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md"
               }
             }
           }
@@ -169,6 +170,7 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
+    "Resource/알고리즘/단지번호붙이기 성공.md",
     "Resource/알고리즘/DP 원리와 센스.md",
     "Resource/알고리즘/임시.md",
     "Resource/알고리즘/카페 확장.md",
@@ -194,7 +196,6 @@
     "Resource/SQL/오랜 기간 보호한 동물.md",
     "Resource/SQL/있었는데요 없었습니다.md",
     "Resource/SQL/그룹별 조건에 맞는 식당 목록 출력하기.md",
-    "Resource/SQL/Untitled 6.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
