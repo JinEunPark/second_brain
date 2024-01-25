@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "사라지는",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "edebde84a8cfce3f",
+  "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
     "Resource/알고리즘/카페 확장.md",
     "Resource/알고리즘/임시.md",
