@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/컴퓨터 기본.md",
+                "file": "Resource/비즈테크/최광일 책임님 특강.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/컴퓨터 기본.md",
+                "file": "Resource/비즈테크/최광일 책임님 특강.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/컴퓨터 기본.md",
+                "file": "Resource/비즈테크/최광일 책임님 특강.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/컴퓨터 기본.md"
+                "file": "Resource/비즈테크/최광일 책임님 특강.md"
               }
             }
           }
@@ -150,9 +150,12 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
+    "Resource/비즈테크/컴퓨터 기본.md",
+    "Resource/비즈테크/최광일 책임님 특강.md",
+    "Resource/Untitled.md",
+    "Resource/비즈테크",
     "link_images/스크린샷 2024-01-31 오전 10.51.37.png",
     "Resource/알고리즘/임시.md",
-    "Resource/컴퓨터 기본.md",
     "Resource/알고리즘/카페 확장.md",
     "Resource/알고리즘/DP 원리와 센스.md",
     "Resource/알고리즘/단지번호붙이기 성공.md",
@@ -175,7 +178,6 @@
     "Resource/SQL/상품을 구매한 회원 비율 구하기.md",
     "Resource/SQL/임시.md",
     "Resource/SQL/상품 별 오프라인 매출 구하기.md",
-    "Resource/SQL/보호소에서 중성화한 동물.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
@@ -187,7 +189,6 @@
     "스크린샷 2023-11-30 오후 1.49.30.png",
     "스크린샷 2023-11-29 오후 1.18.20.png",
     "link_images",
-    "스크린샷 2023-12-22 오후 2.09.52.png",
     "Resource/saffy 대비",
     "Resource/ICT",
     "Resource/알고리즘",
@@ -195,7 +196,6 @@
     "무제 폴더",
     "Projects/2023년 동계 계절학기",
     "Projects/ToyProject",
-    "Projects",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
