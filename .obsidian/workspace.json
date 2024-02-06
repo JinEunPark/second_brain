@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/비즈테크/AWS MSA 구현.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "임시",
+                "query": "path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/비즈테크/AWS MSA 구현.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시.md",
+                "file": "Resource/비즈테크/AWS MSA 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시.md"
+                "file": "Resource/비즈테크/AWS MSA 구현.md"
               }
             }
           }
@@ -151,6 +150,8 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
+    "Resource/알고리즘/임시.md",
+    "Resource/비즈테크/AWS MSA 구현.md",
     "link_images/스크린샷 2024-02-04 오후 3.17.21.png",
     "link_images/스크린샷 2023-11-14 오후 4.35.50.png",
     "Resource/오늘 푼 알고리즘 코드 임시.md",
@@ -160,7 +161,6 @@
     "Resource/Untitled.md",
     "Resource/비즈테크",
     "link_images/스크린샷 2024-01-31 오전 10.51.37.png",
-    "Resource/알고리즘/임시.md",
     "Resource/알고리즘/카페 확장.md",
     "Resource/알고리즘/DP 원리와 센스.md",
     "Resource/알고리즘/단지번호붙이기 성공.md",
@@ -188,7 +188,6 @@
     "Pasted image 20231218003016.png",
     "스크린샷 2024-01-03 오전 2.44.24.png",
     "스크린샷 2023-12-22 오후 3.16.13.png",
-    "스크린샷 2023-11-30 오후 1.49.30.png",
     "link_images",
     "Resource/saffy 대비",
     "Resource/ICT",
