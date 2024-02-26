@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영체제.md",
+                "file": "Projects/리눅스마스터1급/리눅스 기초.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영체제.md",
+                "file": "Projects/리눅스마스터1급/리눅스 기초.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영체제.md",
+                "file": "Projects/리눅스마스터1급/리눅스 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영체제.md"
+                "file": "Projects/리눅스마스터1급/리눅스 기초.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Projects/리눅스마스터1급/리눅스 기초.md",
     "Projects/리눅스마스터1급/운영체제.md",
+    "Projects/리눅스마스터1급/리눅스 기초.md",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
     "Resource/비즈테크/AWS MSA 구현.md",
