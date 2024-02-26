@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영.md",
+                "file": "Projects/리눅스마스터1급/운영체제.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영.md",
+                "file": "Projects/리눅스마스터1급/운영체제.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영.md",
+                "file": "Projects/리눅스마스터1급/운영체제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/리눅스마스터1급/운영.md"
+                "file": "Projects/리눅스마스터1급/운영체제.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
     "Resource/비즈테크/AWS MSA 구현.md",
-    "Projects/리눅스마스터1급/운영.md",
+    "Projects/리눅스마스터1급/운영체제.md",
     "Projects/리눅스마스터1급",
     "Resource/알고리즘/임시.md",
     "link_images/스크린샷 2024-02-04 오후 3.17.21.png",
