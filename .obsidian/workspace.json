@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/비즈테크/AWS MSA 구현.md",
+                "file": "Projects/리눅스마스터1급/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/비즈테크/AWS MSA 구현.md",
+                "file": "Projects/리눅스마스터1급/Untitled.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/비즈테크/AWS MSA 구현.md",
+                "file": "Projects/리눅스마스터1급/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/비즈테크/AWS MSA 구현.md"
+                "file": "Projects/리눅스마스터1급/Untitled.md"
               }
             }
           }
@@ -150,8 +150,10 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/알고리즘/임시.md",
     "Resource/비즈테크/AWS MSA 구현.md",
+    "Projects/리눅스마스터1급/Untitled.md",
+    "Projects/리눅스마스터1급",
+    "Resource/알고리즘/임시.md",
     "link_images/스크린샷 2024-02-04 오후 3.17.21.png",
     "link_images/스크린샷 2023-11-14 오후 4.35.50.png",
     "Resource/오늘 푼 알고리즘 코드 임시.md",
@@ -179,7 +181,6 @@
     "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/직사각형 채우기.md",
     "Resource/알고리즘/3+2+1.md",
-    "Resource/알고리즘/Untitled 2.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
@@ -195,7 +196,6 @@
     "Resource",
     "무제 폴더",
     "Projects/2023년 동계 계절학기",
-    "Projects/ToyProject",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
