@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b202770a9dc64e60",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcbe82e1e53470a2",
+  "active": "b202770a9dc64e60",
   "lastOpenFiles": [
     "Projects/리눅스마스터1급/운영체제.md",
     "Projects/리눅스마스터1급/리눅스 기초.md",
