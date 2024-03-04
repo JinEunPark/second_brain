@@ -24,9 +24,12 @@
             "id": "b202770a9dc64e60",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "Resource/알고리즘/2007.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/리눅스마스터1급/리눅스 기초.md",
+                "file": "Resource/알고리즘/2007.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/리눅스마스터1급/리눅스 기초.md",
+                "file": "Resource/알고리즘/2007.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/리눅스마스터1급/리눅스 기초.md"
+                "file": "Resource/알고리즘/2007.md"
               }
             }
           }
@@ -161,6 +164,9 @@
   },
   "active": "b202770a9dc64e60",
   "lastOpenFiles": [
+    "Resource/알고리즘/3+2+1.md",
+    "Resource/알고리즘/1로 만들기.md",
+    "Resource/알고리즘/01 타일.md",
     "Projects/리눅스마스터1급/운영체제.md",
     "Projects/리눅스마스터1급/리눅스 기초.md",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
@@ -191,9 +197,6 @@
     "Resource/알고리즘/Untitled 3.md",
     "Resource/알고리즘/체육대회.md",
     "Resource/알고리즘/외톨이 알파벳.md",
-    "Resource/알고리즘/1로 만들기.md",
-    "Resource/알고리즘/RGB.md",
-    "Resource/알고리즘/직사각형 채우기.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
