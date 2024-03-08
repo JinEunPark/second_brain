@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b3c1c512a1e9137e",
@@ -162,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b202770a9dc64e60",
+  "active": "d0bb465df9d6aff3",
   "lastOpenFiles": [
     "Resource/알고리즘/2007.md",
     "Projects/pos/포스코.md",
