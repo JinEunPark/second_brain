@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/2007.md",
+                "file": "Projects/pos/포스코.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/2007.md",
+                "file": "Projects/pos/포스코.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/2007.md",
+                "file": "Projects/pos/포스코.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/2007.md"
+                "file": "Projects/pos/포스코.md"
               }
             }
           }
@@ -164,6 +164,10 @@
   },
   "active": "b202770a9dc64e60",
   "lastOpenFiles": [
+    "Resource/알고리즘/2007.md",
+    "Projects/pos/포스코.md",
+    "Projects/pos",
+    "Projects/Untitled.md",
     "Resource/알고리즘/3+2+1.md",
     "Resource/알고리즘/1로 만들기.md",
     "Resource/알고리즘/01 타일.md",
@@ -194,9 +198,6 @@
     "Resource/알고리즘/Untitled 4.md",
     "Resource/알고리즘/Untitled 1.md",
     "Resource/알고리즘/유전법칙.md",
-    "Resource/알고리즘/Untitled 3.md",
-    "Resource/알고리즘/체육대회.md",
-    "Resource/알고리즘/외톨이 알파벳.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
@@ -209,7 +210,6 @@
     "Resource/알고리즘",
     "Resource",
     "무제 폴더",
-    "Projects/2023년 동계 계절학기",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
