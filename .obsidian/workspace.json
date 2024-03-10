@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/pos/포스코.md",
+                "file": "Resource/알고리즘/미로 탐색.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b3c1c512a1e9137e",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/pos/포스코.md",
+                "file": "Resource/알고리즘/미로 탐색.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/pos/포스코.md",
+                "file": "Resource/알고리즘/미로 탐색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/pos/포스코.md"
+                "file": "Resource/알고리즘/미로 탐색.md"
               }
             }
           }
@@ -163,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0bb465df9d6aff3",
+  "active": "b202770a9dc64e60",
   "lastOpenFiles": [
-    "Resource/알고리즘/2007.md",
     "Projects/pos/포스코.md",
+    "Resource/알고리즘/미로 탐색.md",
+    "Resource/알고리즘/2007.md",
     "Projects/pos",
     "Projects/Untitled.md",
     "Resource/알고리즘/3+2+1.md",
@@ -198,7 +198,6 @@
     "Resource/알고리즘/실습용 로봇.md",
     "Resource/알고리즘/Untitled 4.md",
     "Resource/알고리즘/Untitled 1.md",
-    "Resource/알고리즘/유전법칙.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
