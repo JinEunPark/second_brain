@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/토마토.md",
+                "file": "Resource/알고리즘/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/토마토.md",
+                "file": "Resource/알고리즘/Untitled.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/토마토.md",
+                "file": "Resource/알고리즘/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/토마토.md"
+                "file": "Resource/알고리즘/Untitled.md"
               }
             }
           }
@@ -164,8 +164,9 @@
   },
   "active": "b202770a9dc64e60",
   "lastOpenFiles": [
-    "Resource/알고리즘/미로 탐색.md",
     "Resource/알고리즘/토마토.md",
+    "Resource/알고리즘/Untitled.md",
+    "Resource/알고리즘/미로 탐색.md",
     "Projects/pos/포스코.md",
     "Resource/알고리즘/2007.md",
     "Projects/pos",
@@ -197,7 +198,6 @@
     "Resource/알고리즘/실습용로봇.md",
     "Resource/알고리즘/운영체제.md",
     "Resource/알고리즘/실습용 로봇.md",
-    "Resource/알고리즘/Untitled 4.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
