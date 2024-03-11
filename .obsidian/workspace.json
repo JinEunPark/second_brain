@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/Untitled.md",
+                "file": "Resource/알고리즘/불!.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/Untitled.md",
+                "file": "Resource/알고리즘/불!.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/Untitled.md",
+                "file": "Resource/알고리즘/불!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/Untitled.md"
+                "file": "Resource/알고리즘/불!.md"
               }
             }
           }
@@ -165,7 +165,7 @@
   "active": "b202770a9dc64e60",
   "lastOpenFiles": [
     "Resource/알고리즘/토마토.md",
-    "Resource/알고리즘/Untitled.md",
+    "Resource/알고리즘/불!.md",
     "Resource/알고리즘/미로 탐색.md",
     "Projects/pos/포스코.md",
     "Resource/알고리즘/2007.md",
