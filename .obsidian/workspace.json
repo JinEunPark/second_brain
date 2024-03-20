@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/리눅스마스터1급/리눅스 기초.md",
+                "file": "Resource/알고리즘/영역구하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:",
+                "query": "영역구하기",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/영역구하기.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/영역구하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시2.md"
+                "file": "Resource/알고리즘/영역구하기.md"
               }
             }
           },
@@ -194,11 +195,11 @@
       }
     ]
   },
-  "active": "b202770a9dc64e60",
+  "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Projects/리눅스마스터1급/리눅스 기초.md",
     "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/영역구하기.md",
+    "Projects/리눅스마스터1급/리눅스 기초.md",
     "Resource/알고리즘/임시1.md",
     "Resource/알고리즘/불.md",
     "Resource/알고리즘/채스.md",
