@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/상범빌딩.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/상범빌딩.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/상범빌딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시2.md"
+                "file": "Resource/알고리즘/상범빌딩.md"
               }
             }
           },
@@ -196,8 +196,11 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/알고리즘/영역구하기.md",
     "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/상범빌딩.md",
+    "Resource/알고리즘/스타트 링크.md",
+    "Resource/알고리즘/안전영역.md",
+    "Resource/알고리즘/영역구하기.md",
     "Projects/리눅스마스터1급/리눅스 기초.md",
     "Resource/알고리즘/임시1.md",
     "Resource/알고리즘/불.md",
@@ -227,9 +230,6 @@
     "Resource/Untitled.md",
     "Resource/비즈테크",
     "link_images/스크린샷 2024-01-31 오전 10.51.37.png",
-    "Resource/알고리즘/카페 확장.md",
-    "Resource/알고리즘/DP 원리와 센스.md",
-    "Resource/알고리즘/단지번호붙이기 성공.md",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
