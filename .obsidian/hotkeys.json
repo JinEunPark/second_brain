@@ -7,7 +7,7 @@
       "key": "C"
     }
   ],
-  "editor:table-col-after": [
+  "editor:insert-table": [
     {
       "modifiers": [
         "Alt"
