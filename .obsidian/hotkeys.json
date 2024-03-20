@@ -6,5 +6,13 @@
       ],
       "key": "C"
     }
+  ],
+  "editor:table-col-after": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
   ]
 }
