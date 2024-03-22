@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/다리 만들기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/다리 만들기.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/다리 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시2.md"
+                "file": "Resource/알고리즘/다리 만들기.md"
               }
             }
           },
@@ -196,8 +196,10 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/알고리즘/상범빌딩.md",
     "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/다리 만들기.md",
+    "Resource/알고리즘/텀프로젝트.md",
+    "Resource/알고리즘/상범빌딩.md",
     "Resource/알고리즘/스타트 링크.md",
     "Resource/알고리즘/안전영역.md",
     "Resource/알고리즘/영역구하기.md",
@@ -226,8 +228,6 @@
     "Resource/오늘 푼 알고리즘 코드 임시.md",
     "Resource/알고리즘/숨바꼭질 성공다국어.md",
     "Resource/비즈테크/최광일 책임님 특강.md",
-    "Resource/비즈테크/컴퓨터 기본.md",
-    "Resource/Untitled.md",
     "Resource/비즈테크",
     "link_images/스크린샷 2024-01-31 오전 10.51.37.png",
     "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
