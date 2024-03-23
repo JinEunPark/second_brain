@@ -156,44 +156,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "84319961011bf451",
-    "type": "floating",
-    "children": [
-      {
-        "id": "bc2a68ecd040aec6",
-        "type": "window",
-        "children": [
-          {
-            "id": "896aa0ec2c548a7a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b202770a9dc64e60",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Resource/알고리즘/임시2.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2199,
-        "y": 64,
-        "width": 736,
-        "height": 780,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
     "Resource/알고리즘/다리 만들기.md",
