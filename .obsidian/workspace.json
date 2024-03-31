@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "임시",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,19 +158,19 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/알고리즘/bfs 다차원 방문 체크 배열을 가지는 경우 2.md",
-    "Resource/알고리즘/임시2.md",
-    "Resource/알고리즘/다리 만들기.md",
-    "Resource/알고리즘/텀프로젝트.md",
-    "Resource/알고리즘/상범빌딩.md",
-    "Resource/알고리즘/스타트 링크.md",
-    "Resource/알고리즘/안전영역.md",
+    "Resource/알고리즘/토마토 3차원.md",
+    "Resource/알고리즘/채스.md",
+    "Resource/알고리즘/불.md",
     "Resource/알고리즘/영역구하기.md",
+    "Resource/알고리즘/안전영역.md",
+    "Resource/알고리즘/스타트 링크.md",
+    "Resource/알고리즘/상범빌딩.md",
+    "Resource/알고리즘/텀프로젝트.md",
+    "Resource/알고리즘/다리 만들기.md",
+    "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/bfs 다차원 방문 체크 배열을 가지는 경우 2.md",
     "Projects/리눅스마스터1급/리눅스 기초.md",
     "Resource/알고리즘/임시1.md",
-    "Resource/알고리즘/불.md",
-    "Resource/알고리즘/채스.md",
-    "Resource/알고리즘/토마토 3차원.md",
     "Resource/알고리즘/불!.md",
     "Resource/알고리즘/토마토.md",
     "Resource/알고리즘/미로 탐색.md",
