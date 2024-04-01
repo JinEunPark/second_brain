@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md"
+                "file": "Resource/알고리즘/임시2.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
-    "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md",
+    "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/토마토 3차원.md",
     "Resource/알고리즘/채스.md",
     "Resource/알고리즘/불.md",
