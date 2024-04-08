@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/숫자 카드.md",
+                "file": "Resource/알고리즘/신나는 함수 실행.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "BFS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/숫자 카드.md",
+                "file": "Resource/알고리즘/신나는 함수 실행.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/숫자 카드.md",
+                "file": "Resource/알고리즘/신나는 함수 실행.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/숫자 카드.md"
+                "file": "Resource/알고리즘/신나는 함수 실행.md"
               }
             }
           },
@@ -156,9 +157,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bcbe82e1e53470a2",
+  "active": "edebde84a8cfce3f",
   "lastOpenFiles": [
+    "Resource/알고리즘/파도반 수열.md",
+    "Resource/알고리즘/쉬운 계단 수.md",
+    "Resource/알고리즘/가장 긴 증가하는 부분 수열.md",
     "Resource/알고리즘/수 찾기.md",
+    "Resource/알고리즘/1로 만들기.md",
+    "Resource/알고리즘/3+2+1.md",
+    "Resource/알고리즘/숫자 카드.md",
     "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md",
     "Resource/알고리즘/토마토 3차원.md",
@@ -179,14 +186,8 @@
     "Projects/pos/포스코.md",
     "Resource/알고리즘/2007.md",
     "Projects/pos",
-    "Projects/Untitled.md",
-    "Resource/알고리즘/3+2+1.md",
-    "Resource/알고리즘/1로 만들기.md",
-    "Resource/알고리즘/01 타일.md",
-    "Projects/리눅스마스터1급/운영체제.md",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
-    "Resource/비즈테크/AWS MSA 구현.md",
     "Projects/리눅스마스터1급",
     "link_images/스크린샷 2024-02-04 오후 3.17.21.png",
     "link_images/스크린샷 2023-11-14 오후 4.35.50.png",
