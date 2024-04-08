@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md",
+                "file": "Resource/알고리즘/불켜기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md"
+                "file": "Resource/알고리즘/임시2.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,9 +195,12 @@
       }
     ]
   },
-  "active": "ff94a1413eb1d502",
+  "active": "bcbe82e1e53470a2",
   "lastOpenFiles": [
+    "Resource/알고리즘/불켜기.md",
     "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/확장 게임.md",
+    "Resource/알고리즘/벽 부수고 이동하기 3.md",
     "Resource/알고리즘/벽 부수고 이동하기 2.md",
     "Resource/알고리즘/빙산.md",
     "Resource/알고리즘/신나는 함수 실행.md",
@@ -219,9 +223,6 @@
     "Resource/알고리즘/다리 만들기.md",
     "Resource/알고리즘/bfs 다차원 방문 체크 배열을 가지는 경우 2.md",
     "Projects/리눅스마스터1급/리눅스 기초.md",
-    "Resource/알고리즘/임시1.md",
-    "Resource/알고리즘/불!.md",
-    "Resource/알고리즘/토마토.md",
     "Projects/pos",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
