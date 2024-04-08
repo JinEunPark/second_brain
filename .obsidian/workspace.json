@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c115c1fbf3dd3b",
+        "id": "6a48c5e10f129e8a",
         "type": "tabs",
         "children": [
           {
-            "id": "bcbe82e1e53470a2",
+            "id": "ff94a1413eb1d502",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/신나는 함수 실행.md",
+                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/신나는 함수 실행.md",
+                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/신나는 함수 실행.md",
+                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/신나는 함수 실행.md"
+                "file": "Resource/알고리즘/벽 부수고 이동하기 2.md"
               }
             }
           },
@@ -157,8 +156,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "edebde84a8cfce3f",
+  "floating": {
+    "id": "84319961011bf451",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9c17c9456f2d1d22",
+        "type": "window",
+        "children": [
+          {
+            "id": "d28029e5fa4ab9ad",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bcbe82e1e53470a2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Resource/알고리즘/임시2.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1169,
+        "y": 29,
+        "width": 646,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "ff94a1413eb1d502",
   "lastOpenFiles": [
+    "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/벽 부수고 이동하기 2.md",
+    "Resource/알고리즘/빙산.md",
+    "Resource/알고리즘/신나는 함수 실행.md",
     "Resource/알고리즘/파도반 수열.md",
     "Resource/알고리즘/쉬운 계단 수.md",
     "Resource/알고리즘/가장 긴 증가하는 부분 수열.md",
@@ -166,7 +207,6 @@
     "Resource/알고리즘/1로 만들기.md",
     "Resource/알고리즘/3+2+1.md",
     "Resource/알고리즘/숫자 카드.md",
-    "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/무조건 다시 풀어봐야할 문제들 모음.md",
     "Resource/알고리즘/토마토 3차원.md",
     "Resource/알고리즘/채스.md",
@@ -182,9 +222,6 @@
     "Resource/알고리즘/임시1.md",
     "Resource/알고리즘/불!.md",
     "Resource/알고리즘/토마토.md",
-    "Resource/알고리즘/미로 탐색.md",
-    "Projects/pos/포스코.md",
-    "Resource/알고리즘/2007.md",
     "Projects/pos",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
