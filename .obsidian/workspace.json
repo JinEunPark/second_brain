@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/열쇠.md",
+                "file": "Resource/알고리즘/비밀번호 제작.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/비밀번호 제작.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/비밀번호 제작.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시2.md"
+                "file": "Resource/알고리즘/비밀번호 제작.md"
               }
             }
           },
@@ -157,50 +157,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "84319961011bf451",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9c17c9456f2d1d22",
-        "type": "window",
-        "children": [
-          {
-            "id": "d28029e5fa4ab9ad",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bcbe82e1e53470a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Resource/알고리즘/임시2.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1034,
-        "y": 25,
-        "width": 646,
-        "height": 1025,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "bcbe82e1e53470a2",
+  "active": "ff94a1413eb1d502",
   "lastOpenFiles": [
-    "Resource/알고리즘/열쇠.md",
-    "link_images/Pasted image 20240408224434.png",
+    "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/비밀번호 제작.md",
+    "Resource/알고리즘/백조의 호수.md",
+    "Resource/알고리즘/열쇠.md",
     "Resource/알고리즘/불켜기.md",
+    "link_images/Pasted image 20240408224434.png",
     "Resource/알고리즘/확장 게임.md",
     "Resource/알고리즘/벽 부수고 이동하기 3.md",
     "Resource/알고리즘/벽 부수고 이동하기 2.md",
@@ -221,8 +186,6 @@
     "Resource/알고리즘/안전영역.md",
     "Resource/알고리즘/스타트 링크.md",
     "Resource/알고리즘/상범빌딩.md",
-    "Resource/알고리즘/텀프로젝트.md",
-    "Resource/알고리즘/다리 만들기.md",
     "Projects/pos",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
