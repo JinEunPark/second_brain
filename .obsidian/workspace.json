@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/비밀번호 제작.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/비밀번호 제작.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/비밀번호 제작.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/비밀번호 제작.md"
+                "file": "Resource/알고리즘/임시2.md"
               }
             }
           },
@@ -159,9 +159,9 @@
   },
   "active": "ff94a1413eb1d502",
   "lastOpenFiles": [
+    "Resource/알고리즘/비밀번호 제작.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "Resource/알고리즘/임시2.md",
-    "Resource/알고리즘/비밀번호 제작.md",
     "Resource/알고리즘/백조의 호수.md",
     "Resource/알고리즘/열쇠.md",
     "Resource/알고리즘/불켜기.md",
@@ -198,7 +198,6 @@
     "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
     "Pasted image 20231218005433.png",
-    "Pasted image 20231218003130.png",
     "link_images",
     "Resource/saffy 대비",
     "Resource/ICT",
