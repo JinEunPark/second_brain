@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/2007.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/2007.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/2007.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/2007.md"
+                "file": "Resource/알고리즘/임시2.md"
               }
             }
           },
@@ -160,6 +159,7 @@
   },
   "active": "ff94a1413eb1d502",
   "lastOpenFiles": [
+    "Resource/알고리즘/2007.md",
     "Resource/알고리즘/N과 M (3).md",
     "Resource/알고리즘/큰수 만들기.md",
     "Resource/알고리즘/임시2.md",
@@ -187,7 +187,6 @@
     "Resource/알고리즘/불.md",
     "Resource/알고리즘/영역구하기.md",
     "Resource/알고리즘/안전영역.md",
-    "Resource/알고리즘/스타트 링크.md",
     "Projects/pos",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
