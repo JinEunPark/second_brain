@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "타일",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
