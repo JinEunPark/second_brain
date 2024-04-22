@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "12c88ce6159b8620",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff94a1413eb1d502",
+  "active": "12c88ce6159b8620",
   "lastOpenFiles": [
     "Resource/알고리즘/다리 만들기.md",
     "Resource/알고리즘/빙산.md",
