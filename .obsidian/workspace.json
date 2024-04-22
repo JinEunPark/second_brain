@@ -24,9 +24,12 @@
             "id": "12c88ce6159b8620",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Resource/알고리즘/임시2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
