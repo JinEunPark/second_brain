@@ -176,7 +176,63 @@ class MemberRepositoryTest {
 
 결국 위와 같이 바꿔주었다.
 
+```java
+  
+@DataJpaTest  
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)  
+class MemberRepositoryTest {  
+  
+    @Autowired  
+    private MemberRepository memberRepository;  
+  
+    @Test  
+    public void MemberRepositoryNullTest() {  
+        assertThat(memberRepository).isNotNull();  
+    }  
+  
+    private Member createMember(){  
+        return Member.builder()  
+                .email("wlsdmsrnfl@naver.com")  
+                .password("password")  
+                .healthInfo(HealthInfo.builder()  
+                        .active(Active.ACTIVE)  
+                        .height(0.0)  
+                        .weight(0.0)  
+                        .gender(Gender.MAN).build())  
+                .build();  
+    }  
+  
+    @Test  
+    public void enroll_member_test() {  
+        final Member member = createMember();  
+  
+        final Member result = memberRepository.save(member);  
+  
+        Assertions.assertTrue(result.getId() > 0);  
+    }  
+  
+    @Test  
+    public void find_by_id_optional_test(){  
+        final Member member = createMember();  
+  
+        final Member result = memberRepository.save(member);  
+        Optional<Member> finded = memberRepository.findMemberById(member.getId());  
+        Assertions.assertNotNull(finded.get());  
+    }  
+  
+    @Test  
+    public void delete_member_test(){  
+        final Member member = createMember();  
+  
+        final Member result = memberRepository.save(member);  
+        memberRepository.deleteById(result.getId());  
+  
+        Optional<Member> memberReturned = memberRepository.findMemberById(result.getId());  
+        Assertions.assertNotNull(memberReturned.get());  
+    }  
+```
 
+위의 테스트 코드를 만족하는 Respsitory 를 만들어 보도록 하자!
 
 
 
