@@ -148,6 +148,38 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
 
 이후 실행하면 테스트를 통과할 것인가 당연히 아니다 왜냐하면 기본적으로 DataJpaTest 는 @AutoConfigureTestDatabase 를 통해서 임베디드 데이터 베이스를 로드하지만 나는 해당 프로젝트에서 엠베디드 DB 를 설정한 적이 없어서 이를 정상적으로 실행할 수 없는 것 이를 
 
+```java
+enum Replace {  
+   ANY,  
+   AUTO_CONFIGURED,  
+   NONE  
+}
+```
+
+위의 옵션들 중 NONE 으로 설정해 DB 를 컨피그하지 않게 바꿔줘야 한다. 역시 뭐든 까서 봐야 알수 있는것 같다.
+
+```java
+@DataJpaTest  
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)  
+class MemberRepositoryTest {  
+  
+    @Autowired  
+    private MemberRepository memberRepository;  
+  
+    @Test  
+    public void MemberRepositoryNullTest(){  
+        assertThat(memberRepository).isNotNull();  
+    }  
+      
+}
+```
+
+결국 위와 같이 바꿔주었다.
+
+
+
+
+
 
 
 
