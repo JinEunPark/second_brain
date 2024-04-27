@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Projects/think_drink_renewal/think drink renewal.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Projects/think_drink_renewal/think drink renewal.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Projects/think_drink_renewal/think drink renewal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시2.md"
+                "file": "Projects/think_drink_renewal/think drink renewal.md"
               }
             }
           },
@@ -173,6 +173,14 @@
   },
   "active": "12c88ce6159b8620",
   "lastOpenFiles": [
+    "Projects/ToyProject/CSS 참고.md",
+    "Projects/think_drink_renewal/think drink renewal.md",
+    "Projects/think_drink_renewal",
+    "Projects/Untitled.md",
+    "Projects/ToyProject/VUE project 생성.md",
+    "Projects/ToyProject/PostgreSQL spring boot config 및 db 생성.md",
+    "Resource/알고리즘/임시2.md",
+    "Projects/2023년 동계 계절학기/계절학기 일정.md",
     "Resource/알고리즘/다리 만들기.md",
     "Resource/알고리즘/빙산.md",
     "Resource/알고리즘/열쇠.md",
@@ -185,22 +193,15 @@
     "Archive/옵시디언 사용법.md",
     "Archive/Tasks 사용법.md",
     "Archive/Anlab.md",
-    "Projects/2023년 동계 계절학기/계절학기 일정.md",
     "Projects/소마 준비하기.md",
     "Resource/알고리즘/상범빌딩.md",
     "Resource/알고리즘/벽 부수고 이동하기 2.md",
     "Resource/알고리즘/벽 부수고 이동하기 3.md",
-    "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/2007.md",
     "Resource/알고리즘/N과 M (3).md",
     "Resource/알고리즘/큰수 만들기.md",
-    "Resource/알고리즘/비밀번호 제작.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
-    "Resource/알고리즘/백조의 호수.md",
     "link_images/Pasted image 20240408224434.png",
-    "Resource/알고리즘/확장 게임.md",
-    "Resource/알고리즘/신나는 함수 실행.md",
-    "Resource/알고리즘/파도반 수열.md",
     "Projects/pos",
     "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
     "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
@@ -218,7 +219,6 @@
     "Resource/ICT",
     "Resource/알고리즘",
     "Resource",
-    "무제 폴더",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
