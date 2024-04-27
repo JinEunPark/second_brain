@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/think_drink_renewal/think drink renewal.md",
+                "file": "Projects/think_drink_renewal/Member Entity TDD.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/think_drink_renewal/think drink renewal.md",
+                "file": "Projects/think_drink_renewal/Member Entity TDD.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/think_drink_renewal/think drink renewal.md",
+                "file": "Projects/think_drink_renewal/Member Entity TDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/think_drink_renewal/think drink renewal.md"
+                "file": "Projects/think_drink_renewal/Member Entity TDD.md"
               }
             }
           },
@@ -173,8 +173,9 @@
   },
   "active": "12c88ce6159b8620",
   "lastOpenFiles": [
-    "Projects/ToyProject/CSS 참고.md",
     "Projects/think_drink_renewal/think drink renewal.md",
+    "Projects/think_drink_renewal/Member Entity TDD.md",
+    "Projects/ToyProject/CSS 참고.md",
     "Projects/think_drink_renewal",
     "Projects/Untitled.md",
     "Projects/ToyProject/VUE project 생성.md",
@@ -199,7 +200,6 @@
     "Resource/알고리즘/벽 부수고 이동하기 3.md",
     "Resource/알고리즘/2007.md",
     "Resource/알고리즘/N과 M (3).md",
-    "Resource/알고리즘/큰수 만들기.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",
