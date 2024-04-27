@@ -102,7 +102,51 @@ public class HealthInfo {
 
 TDD 기반의 개발을 도입하기 위해서 테스트 코드를 먼저 작성 후 이를 커버하는 방식으로 진행했다.
 
-**테**
+**테스트 코드 작성과 구현**
+TDD 개발의 핵심은 테스트 코드를 작성 후 개발을 진행하는 것이다. 이를 위해서 간단한 테스트 코드를 작성해보겠다.
+
+
+```java
+@DataJpaTest  
+class MemberRepositoryTest {  
+      
+    @Autowired  
+    private MemberRepository memberRepository;  
+    @Test  
+    public void MemberRepositoryNullTest(){  
+        assertThat(memberRepository).isNotNull();  
+    }  
+  
+}
+```
+
+가장 먼저 작성한 테스트 코드는 빈 주입의 유무를 확인하는 코드이다. 초기에 memberRepository 를 작성하기 전에는 당연하게도 오류가 발생한다. 
+```java
+@ExtendWith(SpringExtension.class)
+@OverrideAutoConfiguration(enabled = false)
+@TypeExcludeFilters(DataJpaTypeExcludeFilter.class)
+@Transactional
+@AutoConfigureCache
+@AutoConfigureDataJpa
+@AutoConfigureTestDatabase
+@AutoConfigureTestEntityManager
+@ImportAutoConfiguration
+
+출처: [https://mangkyu.tistory.com/184](https://mangkyu.tistory.com/184) [MangKyu's Diary:티스토리]
+```
+
+위의 에노테이션들은 모두 springdatajpa 에 속해있는 에노테이션들이다. 위에서 볼 수 있듯이 @Transactional 을 포함하고 있기 때문에 이에 대해서 따로 추가할 필요가 없다. 따라서 롤벡 또한 걱정하지 않아도 된다.
+
+
+
+이제 해당 테스트를 만족하기 위해서 실제로 레포를 구현해보자
+```java
+public interface MemberRepository extends JpaRepository<Member, Long> {  
+    Member findMemberById(final Long id);  
+}
+```
+
+
 
 
 
