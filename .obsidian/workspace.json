@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86bf17978f78abd8",
+            "id": "f771afeca6a836f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/BFS 메모리 초과.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95b8ad157ac7d5dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resource/알고리즘/1로 만들기 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2579",
+                "query": "11659",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,10 +170,51 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
+  "floating": {
+    "id": "c523110d3c6f5d1a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "bea663a1207642a8",
+        "type": "window",
+        "children": [
+          {
+            "id": "37b614b8c0e06f69",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "86bf17978f78abd8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Resource/알고리즘/임시2.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 321,
+        "y": 29,
+        "width": 1436,
+        "height": 1010,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "86bf17978f78abd8",
   "lastOpenFiles": [
     "Resource/알고리즘/BFS 메모리 초과.md",
+    "Resource/알고리즘/1로 만들기 2.md",
     "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/구간 합 구하기 4.md",
+    "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/3+2+1.md",
     "Resource/알고리즘/1로 만들기.md",
     "Projects/think_drink_renewal/Member Entity TDD.md",
@@ -184,9 +237,6 @@
     "Archive/옵시디언 사용법.md",
     "Archive/Tasks 사용법.md",
     "Archive/Anlab.md",
-    "Projects/소마 준비하기.md",
-    "Resource/알고리즘/상범빌딩.md",
-    "Resource/알고리즘/벽 부수고 이동하기 2.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",

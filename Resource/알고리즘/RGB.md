@@ -169,7 +169,50 @@ public class Main {
 }
 ```
 ### Trouble
-
+```java
+package run;  
+  
+import java.io.*;  
+import java.util.*;  
+import java.util.stream.Collectors;  
+  
+class Main {  
+  
+    public static void main(String[] args) throws IOException {  
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  
+        StringTokenizer st = new StringTokenizer(br.readLine());  
+        StringBuilder sb = new StringBuilder();  
+  
+        int n = Integer.parseInt(st.nextToken());  
+        int[][] rgb = new int[n][3];  
+        for (int i = 0; i < n; i++) {  
+            String[] s = br.readLine().split(" ");  
+            for (int j = 0; j < 3; j++) {  
+                rgb[i][j] = Integer.parseInt(s[j]);  
+            }  
+        }  
+  
+        int[][] dp = new int[n][3];  
+        List<Integer> tmp = new ArrayList<>();  
+  
+        for (int i = 0; i < n; i++) {  
+            for (int j = 0; j < 3; j++) {  
+                if (i == 0) {  
+                    dp[i][j] = rgb[i][j];  
+                } else {  
+                    tmp = new ArrayList<>();  
+                    for (int k = 0; k < 3; k++) {  
+                        if (j != k) tmp.add(dp[i - 1][k]);  
+                    }  
+                    dp[i][j] = Math.min(rgb[i][j] + tmp.get(0), rgb[i][j] + tmp.get(1));  
+                }  
+            }  
+        }  
+  
+        System.out.println(Math.min(dp[n - 1][0], Math.min(dp[n - 1][1], dp[n - 1][2])));  
+        return;    }  
+}
+```
 
 
 

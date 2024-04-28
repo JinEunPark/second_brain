@@ -225,3 +225,54 @@ i=5:
 t[0] + st[1] + st[3], st[1] + st[3],  st[2] + st[3] 이 경우에 사실은 2 번까지 max 값은 0,1 을 모두 포함하는 것이다 따라서 첫번째 점화식인
 dp[i] = st[i] + dp[i-2] 가 도출된다 그리고 5 번째를 보자
 바로 직전의 수를 포함 시키는 경우에는 반드시 두번째 이후에 반드시 하나의 노드를 건너뛰고 계산하게된다 따라서 이를 하기 위해서는 dp[i] = st[i] + st[i-1] + dp[i-3] 이 된다. 이때 dp[i-3] 에서 -3 을 해준 이유는 이렇게 계산해야 연속해서 3개의 수를 더하는 경우를 막을 수 있기때문이다.
+
+
+```java
+package run;  
+  
+import java.io.*;  
+import java.util.*;  
+import java.util.stream.Collectors;  
+  
+class Main {  
+  
+    public static void main(String[] args) throws IOException {  
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  
+        StringTokenizer st = new StringTokenizer(br.readLine());  
+        StringBuilder sb = new StringBuilder();  
+  
+        int n = Integer.parseInt(st.nextToken());  
+        int[] stair = new int[n+4];  
+  
+        for (int i = 1; i <= n; i++) {  
+            stair[i] = Integer.parseInt(br.readLine());  
+        }  
+        int[] dp = new int[n+4];  
+  
+        dp[0] = 0;  
+        dp[1] = stair[1];  
+        dp[2] = stair[1] + stair[2];  
+        dp[3] = Math.max(stair[2] + stair[3], stair[1] + stair[3]);  
+  
+        for (int i = 4; i <= n; i++) {  
+            dp[i] = Math.max(dp[i-2] + stair[i], dp[i-3] + stair[i-1] + stair[i]);  
+        }  
+  
+        System.out.println(dp[n]);  
+        return;    }  
+}
+```
+
+위의 문제를 푸는데 가장 중요한 점은 연속 3 개의 계단을 밟지 않는 것이다.
+
+```java
+for (int i = 4; i <= n; i++) {  
+		dp[i] = Math.max(dp[i-2] + stair[i], dp[i-3] + stair[i-1] + stair[i]);  
+
+```
+
+위의 점화 식에서 볼 수 있듯이 가장 중요한 점은 i 를 반드시 밟으면서 연속 3개가 되지 않는 계단을 구하는 것이다. 따라서 (i, i-2), (i, i-1, i-3) 이런 식으로 하면 
+1. i, i-2 에서는 i -1 을 밟지 않고 
+2. i, i-1, i -3 에서는 i-2 를 밟지 않아서 연속 3개를 밟는 것이 불가능하다.
+
+
