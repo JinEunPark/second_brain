@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a48c5e10f129e8a",
+        "id": "30380bc22be523ab",
         "type": "tabs",
         "children": [
           {
-            "id": "ff94a1413eb1d502",
+            "id": "86bf17978f78abd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "12c88ce6159b8620",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/think_drink_renewal/Member Entity TDD.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2579",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/think_drink_renewal/Member Entity TDD.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/think_drink_renewal/Member Entity TDD.md",
+                "file": "Resource/알고리즘/임시2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/think_drink_renewal/Member Entity TDD.md"
+                "file": "Resource/알고리즘/임시2.md"
               }
             }
           },
@@ -171,16 +158,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "12c88ce6159b8620",
+  "active": "86bf17978f78abd8",
   "lastOpenFiles": [
-    "Projects/think_drink_renewal/think drink renewal.md",
+    "Resource/알고리즘/BFS 메모리 초과.md",
+    "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/3+2+1.md",
+    "Resource/알고리즘/1로 만들기.md",
     "Projects/think_drink_renewal/Member Entity TDD.md",
+    "Projects/think_drink_renewal/think drink renewal.md",
     "Projects/ToyProject/CSS 참고.md",
     "Projects/think_drink_renewal",
     "Projects/Untitled.md",
     "Projects/ToyProject/VUE project 생성.md",
     "Projects/ToyProject/PostgreSQL spring boot config 및 db 생성.md",
-    "Resource/알고리즘/임시2.md",
     "Projects/2023년 동계 계절학기/계절학기 일정.md",
     "Resource/알고리즘/다리 만들기.md",
     "Resource/알고리즘/빙산.md",
@@ -197,9 +187,6 @@
     "Projects/소마 준비하기.md",
     "Resource/알고리즘/상범빌딩.md",
     "Resource/알고리즘/벽 부수고 이동하기 2.md",
-    "Resource/알고리즘/벽 부수고 이동하기 3.md",
-    "Resource/알고리즘/2007.md",
-    "Resource/알고리즘/N과 M (3).md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",

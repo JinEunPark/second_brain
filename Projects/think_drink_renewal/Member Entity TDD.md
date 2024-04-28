@@ -272,6 +272,53 @@ class MemberRepositoryTest {
 
 위의 테스트 코드를 만족하는 Respsitory 를 만들어 보도록 하자!
 
+```java
+
+@Repository  
+public interface MemberRepository extends JpaRepository<Member,Long>, CustomMemberRepository{  
+  
+}
+
+  
+public interface CustomMemberRepository {  
+    Optional<Member> findMemberById(Long id);  
+    void updateMemberHealthInfo(Long id, HealthInfo healthInfo);  
+}
+
+public class CustomMemberRepositoryImpl implements CustomMemberRepository {  
+    @PersistenceContext  
+    EntityManager em;  
+  
+    @Override  
+    public Optional<Member> findMemberById(Long id) {  
+        List<Member> memberList = em.createQuery("select m from Member m where m.id = :id")  
+                .setParameter("id",id)  
+                .getResultList();  
+  
+        return memberList.stream().findAny();  
+    }  
+  
+    @Override  
+    @Modifying(clearAutomatically = true)  
+    public void updateMemberHealthInfo(@Param("id") Long id,  
+                                       @Param("healthInfo") HealthInfo healthInfo) {  
+        em.createQuery("update Member  m set m.healthInfo = :healthInfo where m.id = :id")  
+                .setParameter("healthInfo", healthInfo)  
+                .setParameter("id",id)  
+                .executeUpdate();  
+           // flush 호출  
+        em.flush();  
+        em.clear();  
+        return;    }  
+  
+}
+```
+
+update healtinfo 는 이 앱에서 중요한 부분이기에 바로 피지컬 DB 에 반영되게 만들었다.
+
+
+
+
 
 
 
