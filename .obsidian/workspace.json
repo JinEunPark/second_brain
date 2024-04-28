@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/BFS 메모리 초과.md",
+                "file": "Resource/알고리즘/퇴사2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/퇴사2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/임시2.md",
+                "file": "Resource/알고리즘/퇴사2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/임시2.md"
+                "file": "Resource/알고리즘/퇴사2.md"
               }
             }
           },
@@ -199,7 +199,7 @@
           }
         ],
         "direction": "vertical",
-        "x": 321,
+        "x": 244,
         "y": 29,
         "width": 1436,
         "height": 1010,
@@ -208,11 +208,18 @@
       }
     ]
   },
-  "active": "86bf17978f78abd8",
+  "active": "f771afeca6a836f7",
   "lastOpenFiles": [
+    "Resource/알고리즘/퇴사.md",
+    "Resource/알고리즘/퇴사2.md",
+    "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/가장 큰 증가하는 부분 수열.md",
+    "Resource/알고리즘/연속합.md",
+    "Resource/알고리즘/이친수.md",
+    "Resource/알고리즘/2xn 타일링 2.md",
+    "Resource/알고리즘/피보나치 함수.md",
     "Resource/알고리즘/BFS 메모리 초과.md",
     "Resource/알고리즘/1로 만들기 2.md",
-    "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/구간 합 구하기 4.md",
     "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/3+2+1.md",
@@ -230,13 +237,6 @@
     "Resource/알고리즘/열쇠.md",
     "Resource/알고리즘/텀프로젝트.md",
     "Resource/알고리즘/불켜기.md",
-    "Resource/비즈테크/컴퓨터 기본.md",
-    "Resource/비즈테크/최광일 책임님 특강.md",
-    "Projects/pos/포스코.md",
-    "Archive/마크다운 사용법.md",
-    "Archive/옵시디언 사용법.md",
-    "Archive/Tasks 사용법.md",
-    "Archive/Anlab.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",
