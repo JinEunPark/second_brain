@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/퇴사2.md",
+                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/퇴사2.md",
+                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/퇴사2.md",
+                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/퇴사2.md"
+                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md"
               }
             }
           },
@@ -170,49 +170,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "c523110d3c6f5d1a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "bea663a1207642a8",
-        "type": "window",
-        "children": [
-          {
-            "id": "37b614b8c0e06f69",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "86bf17978f78abd8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Resource/알고리즘/임시2.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 244,
-        "y": 29,
-        "width": 1436,
-        "height": 1010,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "f771afeca6a836f7",
   "lastOpenFiles": [
-    "Resource/알고리즘/퇴사.md",
-    "Resource/알고리즘/퇴사2.md",
+    "Resource/알고리즘/자두나무.md",
+    "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
     "Resource/알고리즘/임시2.md",
+    "Resource/알고리즘/퇴사2.md",
+    "Resource/알고리즘/퇴사.md",
     "Resource/알고리즘/가장 큰 증가하는 부분 수열.md",
     "Resource/알고리즘/연속합.md",
     "Resource/알고리즘/이친수.md",
@@ -235,8 +199,6 @@
     "Resource/알고리즘/다리 만들기.md",
     "Resource/알고리즘/빙산.md",
     "Resource/알고리즘/열쇠.md",
-    "Resource/알고리즘/텀프로젝트.md",
-    "Resource/알고리즘/불켜기.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",
