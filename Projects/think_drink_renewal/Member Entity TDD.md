@@ -178,6 +178,22 @@ class MemberRepositoryTest {
 
 ```java
   
+package com.example.think_drink2.member.repository;  
+  
+import com.example.think_drink2.member.model.HealthInfo;  
+import com.example.think_drink2.member.model.Member;  
+import com.example.think_drink2.member.model.state.Active;  
+import com.example.think_drink2.member.model.state.Gender;  
+import org.junit.jupiter.api.Assertions;  
+import org.junit.jupiter.api.Test;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;  
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;  
+  
+import java.util.Optional;  
+  
+import static org.assertj.core.api.Assertions.assertThat;  
+  
 @DataJpaTest  
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)  
 class MemberRepositoryTest {  
@@ -228,8 +244,30 @@ class MemberRepositoryTest {
         memberRepository.deleteById(result.getId());  
   
         Optional<Member> memberReturned = memberRepository.findMemberById(result.getId());  
-        Assertions.assertNotNull(memberReturned.get());  
+        Assertions.assertTrue(!memberReturned.isPresent());  
     }  
+    @Test  
+    public void update_member_health_information_test(){  
+        final Member member = createMember();  
+        final Member result = memberRepository.save(member);  
+  
+        HealthInfo healthInfo = result.getHealthInfo();  
+        HealthInfo updatedHealth = HealthInfo.builder()  
+                .active(Active.ACTIVE)  
+                .gender(Gender.WOMAN)  
+                .height(1.0)//변경된 키  
+                .weight(1.0)  
+                .build();  
+  
+        memberRepository.updateMemberHealthInfo(result.getId(), updatedHealth);  
+        Optional<Member> updatedMember = memberRepository.findMemberById(result.getId());  
+        Assertions.assertEquals(updatedMember.get().getHealthInfo().getGender(),  
+                updatedHealth.getGender());  
+    }  
+  
+  
+  
+}
 ```
 
 위의 테스트 코드를 만족하는 Respsitory 를 만들어 보도록 하자!
