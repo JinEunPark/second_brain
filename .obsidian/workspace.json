@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "9aa2b4203c9fafb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resource/알고리즘/쉬운 계단 수.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "95b8ad157ac7d5dd",
             "type": "leaf",
             "state": {
@@ -62,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "11659",
+                "query": "계단",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,8 +185,10 @@
   },
   "active": "f771afeca6a836f7",
   "lastOpenFiles": [
-    "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
+    "Resource/알고리즘/계단 올라가기.md",
+    "Resource/알고리즘/쉬운 계단 수.md",
     "Resource/알고리즘/포도주 시식.md",
+    "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
     "Resource/알고리즘/자두나무.md",
     "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/퇴사2.md",
@@ -183,7 +198,6 @@
     "Resource/알고리즘/이친수.md",
     "Resource/알고리즘/2xn 타일링 2.md",
     "Resource/알고리즘/피보나치 함수.md",
-    "Resource/알고리즘/BFS 메모리 초과.md",
     "Resource/알고리즘/1로 만들기 2.md",
     "Resource/알고리즘/구간 합 구하기 4.md",
     "Resource/알고리즘/RGB.md",
@@ -198,7 +212,6 @@
     "Projects/ToyProject/PostgreSQL spring boot config 및 db 생성.md",
     "Projects/2023년 동계 계절학기/계절학기 일정.md",
     "Resource/알고리즘/다리 만들기.md",
-    "Resource/알고리즘/빙산.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",
