@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
+                "file": "Resource/알고리즘/포도주 시식.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
+                "file": "Resource/알고리즘/포도주 시식.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
+                "file": "Resource/알고리즘/포도주 시식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md"
+                "file": "Resource/알고리즘/포도주 시식.md"
               }
             }
           },
@@ -172,8 +172,9 @@
   },
   "active": "f771afeca6a836f7",
   "lastOpenFiles": [
-    "Resource/알고리즘/자두나무.md",
     "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
+    "Resource/알고리즘/포도주 시식.md",
+    "Resource/알고리즘/자두나무.md",
     "Resource/알고리즘/임시2.md",
     "Resource/알고리즘/퇴사2.md",
     "Resource/알고리즘/퇴사.md",
@@ -198,7 +199,6 @@
     "Projects/2023년 동계 계절학기/계절학기 일정.md",
     "Resource/알고리즘/다리 만들기.md",
     "Resource/알고리즘/빙산.md",
-    "Resource/알고리즘/열쇠.md",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
     "Projects/pos",
