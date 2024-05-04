@@ -78,7 +78,7 @@ a c d b
 이는 abc, acbd 의 값, acd, abcd 의 값 둘중에 하나라고 볼 수 있다. 그렇다면 무엇을 골라야할까? 더 큰거다.
 
 ```
-dp[i][j] = 
+dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
 ```
 
 |     |     | a   | b   | c   | d   |
