@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/면접 준비.md",
+                "file": "Projects/답변.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/면접 준비.md",
+                "file": "Projects/답변.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/면접 준비.md"
+                "file": "Projects/답변.md"
               }
             }
           },
@@ -195,11 +195,11 @@
       }
     ]
   },
-  "active": "d0bb465df9d6aff3",
+  "active": "f771afeca6a836f7",
   "lastOpenFiles": [
+    "Projects/면접 준비.md",
     "Resource/알고리즘/쉬운 계단 수.md",
     "Projects/답변.md",
-    "Projects/면접 준비.md",
     "Resource/알고리즘/1로 만들기 2.md",
     "Projects/소마 준비하기.md",
     "Resource/알고리즘/암호코드.md",
