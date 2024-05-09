@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/팰린드롬.md",
+                "file": "Resource/알고리즘/암호코드.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/팰린드롬.md",
+                "file": "Resource/알고리즘/암호코드.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/팰린드롬.md",
+                "file": "Resource/알고리즘/암호코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/팰린드롬.md"
+                "file": "Resource/알고리즘/암호코드.md"
               }
             }
           },
@@ -185,10 +185,11 @@
   },
   "active": "f771afeca6a836f7",
   "lastOpenFiles": [
+    "Resource/알고리즘/팰린드롬.md",
+    "Resource/알고리즘/암호코드.md",
     "Resource/알고리즘/가장 큰 정사각형.md",
     "Resource/알고리즘/동전.md",
     "Resource/알고리즘/제곱수합.md",
-    "Resource/알고리즘/팰린드롬.md",
     "Resource/알고리즘/큰수 만들기.md",
     "Resource/알고리즘/키패드 누르기.md",
     "Resource/알고리즘/LCS 알고리즘.md",
@@ -210,7 +211,6 @@
     "Resource/알고리즘/연속합.md",
     "Resource/알고리즘/이친수.md",
     "Resource/알고리즘/2xn 타일링 2.md",
-    "Resource/알고리즘/피보나치 함수.md",
     "Projects/think_drink_renewal",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
