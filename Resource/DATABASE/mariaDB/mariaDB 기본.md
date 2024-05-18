@@ -1,0 +1,498 @@
+
+
+- dbms란
+    
+    - DatabaseManagement 시스템
+    - Mysql, MariaDB, Oracle, Postgres, MongoDB, Redis 등
+        - 관계형데이터베이스(RDB)
+            - Mysql, Oracle, MariaDB, Postgres
+            - 서로 관계를 갖는 데이터들의 집합
+            - 테이블, 행, 열 등의 구조로 데이터가 구조화
+        - 비관계형데이터베이스(NoSQL)
+            - Redis, MongoDB
+- MariaDB
+    
+    ![[Pasted image 20240518171752.png]]
+    - MariaDB는 관계형 데이터 베이스
+    - MariaDB는 MySQL의 포크로 2009년에 시작되었고, MySQL의 기본적인 특성 및 구조를 그대로 유지하면서 일부 차이점과 추가 기능을 포함
+    - MariaDB의 특징
+        - MariaDB는 완전한 오픈소스
+            - 지속적인 발전 가능성
+            - 사용자 입장에서 무료
+        - 뛰어난 성능 및 최적화
+        - 아직까진 높은 점유율은 아니지만, mysql의 오라클 인수 이후 비 오픈소스화 됨에 따라 mysql의 자리를 대체할것으로 예상
+- SQL문
+    
+    - SQL문이란 관계형 데이터베이스 관리 시스템(RDBMS)에서 데이터를 조회, 삽입, 갱신, 삭제하기 위해 사용되는 프로그래밍 언어
+    - CRUD
+        - Create, Read, Update, Delete의 약어
+        - 데이터베이스에 생성, 조회, 수정, 삭제를 의미
+    - SQL 구문도 위의 목적에 맞게 크게 세 가지로 구분
+        - DDL
+            - Data Definition Language
+            - 데이터베이스나 테이블 등을 생성, 삭제하거나 그 구조를 변경
+            - CREATE, ALTER, DROP
+        - DML
+            - Data Manipulation Language
+            - 데이터베이스에 저장된 데이터를 처리하거나 조회
+            - INSERT, UPDATE, DELETE, SELECT 등
+        - DCL
+            - Data Control Language
+            - 사용자 권한 부여 등 사용자관리 SQL문
+            - GRANT, REVOKE 등
+- 데이터베이스
+    
+![[Pasted image 20240518171803.png]]
+    
+- 테이블
+    
+    ![[Pasted image 20240518171817.png]]
+    
+    - 열(column)
+        - 열은 필드(field) 또는 속성(attribute)
+    - 행(row)
+        - 튜플(tuple) 또는 레코드(record)
+    - 값(value)
+        - data로 속칭
+    - 키(key)
+        - 한 행의 식별자로 이용되는 열
+        - 테이블에 저장된 레코드를 고유하게 식별하는 키를 기본 키(primary key)
+    - 외래 키(foreign key)
+        - 외래키는 두 테이블을 서로 연결하는 데 사용되는 키
+- 데이터베이스 구축 실습
+    
+    - 게시판 데이터 베이스 구축 실습
+        - mariaDB서버 설치
+        - mariadb접속(터미널)
+            - mariadb -u root -p 엔터
+            - 비밀번호 입력
+        - 게시판(board) 데이터베이스(스키마)를 생성
+        - 스키마 안에 글쓴이(author) 테이블, 글목록(post)테이블 생성
+    - author테이블
+        - author테이블에는 id, email, password, 회원이름(name) 등의 정보가 있을것
+    - post 테이블
+        - post 테이블에는 글번호(id), 글제목(title), 글내용(contents), 저자 등의 정보가 필요할것
+- mariaDB 및 workbench 설치
+    
+    - mariaDB 설치
+        - mariaDB window download 검색
+        - 만약 도커로 실행한다면
+            - docker run --name board_mariadb-e MYSQL_ROOT_PASSWORD=test1234 -d -p 3300:3306 mariadb:latest
+        - UTF-8설정
+            - 조회시
+                - SHOW VARIABLES LIKE 'character_set_server';
+                    - ISO 8859-1 라면 한글 저장 어려움
+            - 추후 변경시
+                - ALTER DATABASE [DB명] DEFAULT CHARACTER SET = utf8;
+                - ALTER DATABASE [DB명] CHARACTER SET utf8mb4;
+                    - mb4를 통해 이모티콘등의 더 많은 문자체계 저장 가능
+        - C:\Program Files\MariaDB 11.3\bin system path에 환경변수 설정
+    - GUI Tool 설치
+        - Workbench
+            - mysql계열에서 많이 사용
+            - [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/)
+        - DBeaver
+            - MariaDB, MySQL을 포함한 다양한 DBMS를 지원하는 범용 데이터베이스 관리 도구
+        - DataGrip
+            - Jetbrains사에서 개발한 유료 Tool
+- 데이터베이스(스키마) 생성
+    
+    - 데이터베이스 생성
+        - CREATE DATABASE 데이터베이스이름
+    - 데이터베이스 삭제
+        - DROP DATABASE 데이터베이스이름
+    - 데이터베이스의 선택
+        - USE 데이터베이스이름
+    - 데이터베이스 생성 후 확인
+        - SHOW DATABASES;
+- 테이블 생성 구조
+    
+    ![[Pasted image 20240518171837.png]]
+    - 작가 테이블
+        - id(int, pk, auto), name(varchar255), email(varchar255), password(varchar255), role(varchar50)
+    - 글목록 테이블
+        - id(int, pk, auto), title(varchar255), contents(varchar255), author_id, created_at
+        - author_id: author테이블의 id fk
+- 데이터베이스, 테이블 생성
+    
+    - MariaDB에서 명령문은 대소문자를 구분하지 않으나, 대문자가 관례
+        - 테이블명, 컬럼명은 소문자가 관례
+        - 테이블명은 대소문자를 구분
+    - create database board;
+    - create table author(id INT PRIMARY KEY, name VARCHAR(255), email VARCHAR(255), password VARCHAR(255));
+        - primary key를 걸게되는 컬럼에 대해서는 unique, not null 제약조건 부여
+    - create table posts(id INT, title VARCHAR(30), contents VARCHAR(255), author_id INT, PRIMARY KEY (id), FOREIGN KEY (author_id) REFERENCES author(id));
+        - 외래키가 설정되면, post테이블 데이터의 생성, 수정에 대해 제약이 발생
+            - 만약 author_id에 not null 조건이 있다면 author에 없는 데이터는 post에 생성불가
+            - author가 삭제될때 post에 데이터가 남아있으면 author 삭제 불가
+            - author의 id가 수정될때 post에 데이터가 남아있으면 author 수정 불가
+        - 삭제, 수정에 대해서는 기본적으로 제약(restrict제약). 옵션을 통해 변경가능
+- 테이블,컬럼 정보조회
+    
+    - 테이브생성 후 확인
+        - SHOW TABLES
+    - 컬럼 정보 조회
+        - describe author;
+    - 컬럼 정보 상세조회
+        - SHOW FULL COLUMNS FROM author;
+    - 테이블 생성문 조회
+        - SHOW CREATE TABLE posts;
+    - 참조관계 및 제약조건 정보조회
+        - SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME = 'posts' ;
+    - 인덱스 조회
+        - SHOW INDEX FROM 테이블명;
+        - 제약조건 정보조회와 인덱스조회는 상당수 일치(pk, fk 제약조건은 인덱스를 생성)
+        - 인덱스란 조회의 성능을 높이기 위한 별도 페이지라 이해하면 될것
+- DDL - CREATE
+    
+    - 테이블 생성
+        - CREATE TABLE 테이블이름 ( 필드이름1 필드타입1 [제약조건], 필드이름2 필드타입2 [제약조건], ..., [테이블 제약조건] )
+    - 제약조건 추가 방법
+        - 필드 제약조건
+            
+            - 해당 필드에 적용할 제약조건을 선택적으로 지정 가능
+                
+            - 예시)
+                
+                CREATE TABLE author ( id INT PRIMARY KEY, email VARCHAR(255) , name VARCHAR(255), ... );
+                
+        - 테이블 제약조건
+            
+            - 복잡한 제약조건은 table차원의 제약조건에 설정
+                
+            - 예시)
+                
+                CREATE TABLE author ( id INT, email VARCHAR(255) , name VARCHAR(255), PRIMARY KEY(id) );
+                
+- DDL – ALTER
+    
+    - 테이블 변경
+    - 테이블 이름 변경
+        - ALTER TABLE 테이블명 RENAME 새로운테이블명;
+        - ALTER TABLE posts RENAME post;
+    - 컬럼 추가 (Add)
+        - ALTER TABLE 테이블명 ADD COLUMN 컬럼명 자료형 [NULL 또는 NOT NULL]
+        - ALTER TABLE author ADD COLUMN role VARCHAR(50);
+    - 필드 타입 변경 (Modify)
+        - ALTER TABLE 테이블명 MODIFY COLUMN 컬럼명 타입 [제약조건];
+        - ALTER TABLE author MODIFY COLUMN name VARCHAR(100) NOT NULL;
+    - 컬럼 이름변경
+        - ALTER TABLE 테이블명 CHANGE COLUMN 기존컬럼명 새로운컬럼명 타입 [제약조건];
+    - 컬럼 삭제
+        - ALTER TABLE 테이블명 DROP COLUMN 컬럼명;
+- DDL – DROP
+    
+    - 테이블 삭제
+        - DROP TABLE 테이블이름
+    - IF EXISTS
+        - 특정 객체(예: 데이터베이스나 테이블)가 존재하는 경우에만 명령어를 실행
+        - DROP TABLE abc;
+- DML - INSERT
+    
+    - INSERT
+        - 테이블에 새로운 레코드를 추가
+        - INSERT INTO 테이블이름(필드이름1, 필드이름2, 필드이름3, ...) VALUES (데이터값1, 데이터값2, 데이터값3, ...)
+        - 예제
+            - insert into author(id, name, email) values(1, ‘kim', ‘abc@naver.com’);
+    - MariaDB에서 문자열은 일반적으로 따옴표(’)사용
+- DML - UPDATE
+    
+    - UPDATE
+        - 테이블 레코드의 내용을 수정
+        - UPDATE 테이블이름 SET 필드이름1=데이터값1, 필드이름2=데이터값2, ... WHERE 필드이름=데이터값
+        - 만약 WHERE 절을 생략하면, 해당 테이블의 모든 레코드값이 위 설정대로 수정되므로 유의
+        - 예제
+            - update author set email=‘abc2@test.com’ where id=1;
+    - 여기서 =의 쓰임새는 2가지
+        - where문 뒤에 나오는 비교시에 =
+        - 어떤 값을 set할때도 =을 사용하여 대입
+- DML - DELETE
+    
+    - DELETE
+        - DELETE FROM 테이블이름 WHERE 필드이름=데이터값
+        - WHERE 절을 생략하면, 해당 테이블에 저장된 모든 데이터가 삭제
+    - 예제
+        - DELETE FROM author WHERE author_id=1;
+    - 테이블의 데이터를 모두 지우고 싶을 때
+        - DELETE FROM 테이블이름
+        - TRUNCATE TABLE 테이블이름
+        - DELETE, TRUCATE, DROP 차이
+            - DROP은 테이블 구조까지 전체 삭제하고 delete, truncate는 데이터만 삭제
+            - DELETE와 truncate의 차이
+                - delete는 복구가 가능
+                    - storage에 파일형태로 내용 존재
+                - delete는 각 삭제된 행에 대해 로그를 기록하므로 삭제속도는 truncate보다 느림
+- DML - SELECT
+    
+    - SELECT
+        - SELECT 필드이름 FROM 테이블이름 [WHERE 조건]
+    - 모든 필드 선택
+        - SELECT * FROM member;
+    - 예제
+        - select * from author where id=1;
+        - select name, email from author where id=1;
+        - select * from author where id > 1;
+        - select * from author where id > 1 AND name = ‘kim’;
+    - 주석을 위해 #을 사용
+    - SELECT 시 중복되는 값 제거
+        - SELECT DISTINCT name from author;
+    - 선택한 결과의 정렬
+        - SELECT 문으로 선택한 결과를 ORDER BY 절을 사용하여 정렬
+        - 기본 설정은 오름차순(ASC)이며, 내림차순시 ORDER BY 뒤에 DESC
+        - 중복데이터가 있을 경우 여러 필드의 데이터를 쉼표(,)를 사용하여 여러 정렬 조건 지정 가능
+        - order by 생략시 pk를 기준으로 오름차순 정렬하여 결과값 반환
+    - 별칭(alias)을 이용한 처리
+        - 테이블과 필드에 임시로 별칭(alias)을 부여하고, 해당 별칭을 SELECT 문에서 사용
+        - SELECT 필드이름 AS 별칭 FROM 테이블이름;
+        - SELECT 필드이름 FROM 테이블이름 AS 별칭;
+- 타입(data type) - 숫자
+    
+    - 테이블의 타입 확인
+        - DESCRIBE 테이블명;
+    - 숫자 타입
+        - 정수
+            - TINYINT
+                - -128 ~ 127범위, 1바이트
+                - java의 byte와 매핑
+                - 대표적으로 나이를 표현
+            - INT
+                - 4바이트
+                - java의 int타입과 매핑
+            - BIGINT
+                - 8바이트
+                - java의 long타입과 매핑
+                - id값은 일반적으로 BIGINT사용
+            - UNSIGNED 타입을 사용하여 양수만 표현가능
+                - 표현값 2배로 증가
+                - TINYINT UNSIGNED 이렇게 사용한다면 255까지 사용가능 ex)나이
+        - 실수
+            - 고정 소수점 타입
+                - DECIMAL(M,D)
+                    - java의 Bigdecimal
+                    - M은 총자릿수 (정수부+소수부)를 의미 하고, 65자리까지 표현가능
+                    - D는 소수부 의미
+                    - 정확한 숫자 표현을 위해사용
+            - 부동 소수점 타입
+                - FLOAT, DOUBLE
+                - 오차가 발생할 여지가 있음
+    - 문자 타입
+        - CHAR와 VARCHAR
+            - CHAR(M)
+                - M은 문자열의 최대 길이를 의미
+                - 고정 길이의 문자열(0~255까지 설정가능)
+                    - 설정한 길이 만큼의 데이터 공간 차지
+                    - 부족한 입력 데이터는 공백으로 차지
+                - 길이가 정해진 데이터를 저장할때 사용이 적합
+            - VARCHAR(255)
+                - M은 문자열의 최대 길이를 의미
+                - java의 String과 호환
+                - 0부터 65,535까지 설정가능
+                - 가변 길이의 문자열
+                    - 실제 입력된 문자열의 길이만큼만 저장하고 사용
+                - 일반적으로 가장 많이 사용
+        - TEXT
+            - 가변길이 문자
+            - 최대 65535글자의 글자를 적재할 수 있지만 크기를 미리 지정 불가
+            - varchar보다 더 큰 범위의 표현이 가능 ex) LONGTEXT는 4GB
+            - disk에 저장해서 조회속도가 VARCHAR(메모리저장)에 비해 느림
+            - index사용의 어려움
+        - BLOB
+            - 다양한 크기의 바이너리 데이터를 저장할 수 있는 타입
+            - 일반적으로 PNG와 같은 이미지파일을 저장할때 지정하는 타입
+            - 예시) INSERT INTO author(profile_phto) VALUES(LOAD_FILE('/path/to/your/file'));
+        - ENUM
+            - 미리 들어갈수 있는 특정 데이터의 목록값을 지정
+            - 컬럼명 ENUM('데이터값1','데이터값2',...)
+            - ALTER TABLE author ADD COLUMN role ENUM(’user’, ‘admin’);
+            - NOT NULL DEFAULT 'user' 등의 옵션도 추가 가능
+    - 날짜와 시간
+        - DATE
+            - 날짜를 저장할 수 있는 타입
+            - YYYY-MM-DD
+        - DATETIME(m)
+            - 날짜와 함께 시간까지 저장, m지정시 소수점 microseconds
+            - YYYY-MM-DD HH:MM:SS’
+            - 가장많이 사용
+            - java의 localdatetime과 sync
+            - 컬럼명 DATETIME DEFAULT CURRENT_TIMESTAMP 옵션 많이 사용
+                - 현재시간을 default로 삽입하는 형식
+- 비교연산자
+    
+    - =
+    - !=, <>
+    - <, <=, >, >=
+    - IS NULL, IS NOT NULL
+        - NULL은 공백과는 다름에 유의
+    - BETWEEN min AND max
+        - 피연산자의 값이 min 값보다 크고 max 보다 작으면 참을 반환함.
+    - IN(), NOT IN()
+- 논리연산자
+    
+    - AND
+        - &&도 가능
+    - OR
+        - ||도 가능
+    - NOT
+        - !도 가능
+- 검색 패턴
+    
+    - LIKE
+        - 특정 패턴을 포함하는 데이터만을 검색하기 위한 와일드카드(wildcard) 문자
+        - 일반적으로 %와 함께 사용됨
+        - SELECT * FROM author WHERE name LIKE ‘홍%’;
+        - SELECT * FROM author WHERE name LIKE ‘%동';
+        - SELECT * FROM author WHERE name LIKE ‘%길%';
+    - NOT LIKE
+    - REGEXP
+        - 정규표현식을 토대로 패턴 연산 수행
+        - SELECT * FROM author WHERE name REGEXP ‘[a-z]’;
+        - SELECT * FROM author WHERE name REGEXP ‘[가-힣]’;
+    - NOT REGEXP
+- 타입 변환
+    
+    - CAST
+        - CAST(a AS type)
+        - a값(문자열,숫자)을 특정 type으로 변환
+        - SELECT CAST(20200101 AS DATE); => 2020-01-01
+        - 날짜포맷을 숫자로 변환할 경우
+            - int 대신 unsigned 또는 signed사용
+            - cast(date_format(created_time, '%H') as unsigned)
+    - CONVERT
+        - 문자열, 숫자등을 날짜/시간으로 변환하는 데 사용
+        - CONVERT('2020-01-01', DATE); => 2020-01-01
+        - CONVERT가 CAST에 비해 더 많은 옵션들을 가지고 있으나, 사용가능한 환경의 제약이 존재
+    - DATE_FORMAT
+        - DATE_FORMAT 함수는 날짜/시간 타입의 데이터를 지정된 형식의 문자열로 변환
+        - 가장 많이 사용
+        - DATE_FORMAT(date, format)
+            - ex)SELECT DATE_FORMAT('2020-01-01', '%Y-%m-%d'); => 2020-01-01
+- 특정 날짜, 기간 조회
+    
+    - 날짜 데이터 조회하는 방식 중 많이 사용 하는 방식
+        - DATE_FORMAT(date, format)을 활용한 조회
+            - Y, m, d, H, i, s
+            - SELECT * FROM post WHERE DATE_FORMAT(created_time, '%Y-%m') ='2021-01'
+        - LIKE 를 사용하여 문자열 형식으로 조회
+            - SELECT * FROM post where created_time like '2023%';
+        - BETWEEN 연산자
+            - 특정 날짜 범위를 지정하여 데이터를 검색
+            - WHERE created_time BETWEEN '2021-01-01' AND '2023-11-17'
+        - 날짜 비교 연산자
+            - WHERE created_time >= '2021-01-01' AND created_time <= '2023-11-17'
+    - 오늘날짜 관련 함수
+        - now()
+- 제약조건(constraint)
+    
+    - 데이터를 입력받을 때 실행되는 검사 규칙
+    - CREATE 문으로 테이블을 생성 또는 ALTER 문으로 필드를 추가할 때 설정
+    - 종류
+        - NOT NULL
+        - FOREIGN KEY
+        - UNIQUE
+        - PRIMARY KEY
+    - NOT NULL
+        - default값은 nullable
+        - not null제약 조건이 설정된 필드는 무조건 데이터를 가지고 있어야 한다
+        - 문법 예제
+            - (실습)ALTER문을 써서 post의 title을 not null 조건변경
+        - AUTO_INCREMENT 키워드와 함께
+            - 새로운 레코드가 추가될 때마다 1씩 증가된 값을 저장
+            - (실습)author, post 테이블의 id에 auto_increment로 변경
+                - ALTER TABLE author MODIFY COLUMN id INT AUTO_INCREMENT;
+            - 참고)uuid
+                - UUID (Universally Unique Identifier)는 데이터베이스 관리에서 널리 사용되는 유니크 식별자로, 특정 항목을 전 세계적으로 유일하게 식별할 수 있도록 설계
+                - ALTER TABLE post ADD COLUMN user_id CHAR(36) NOT NULL DEFAULT (UUID());
+                - 장점
+                    - 분산환경에서 DB통합에 이점
+                    - id값의 유출에도 다른 id값의 추측이 어렵게 하여 보안상 이점
+                - 단점
+                    - int 또는 long 타입에 비해 더 많은 용량 차지
+    - UNIQUE
+        - UNIQUE 제약 조건을 설정하면, 해당 필드는 값이 unique해야함을 의미
+        - 방법1
+            - CREATE TABLE 테이블이름 (필드명 필드타입 UNIQUE, ...);
+        - 방법2
+            - CREATE TABLE 테이블이름 (필드이름 필드타입, …, [CONSTRAINT 제약조건이름] UNIQUE (필드이름) );
+            - UNIQUE 제약 조건을 별도로 정의하며, 선택적으로 제약 조건에 이름을 부여하는 방법
+        - UNIQUE 제약 조건을 설정하면, 해당 필드는 자동으로 인덱스(INDEX)로 설정
+            - show index from 테이블명;
+    - PRIMARY KEY
+        - PRIMARY KEY 제약 조건을 가진 컬럼을 기본키(pk)라 함
+            - NOT NULL과 UNIQUE 제약 조건의 특징을 모두 가진다
+        - PRIMARY KEY는 테이블당 오직 하나의 필드에만 설정
+            - UNIQUE는 한 테이블의 여러 필드에 설정 가능
+            - NOT NULL도 물론 여러 필드에 설정 가능
+        - 없던 PK를 설정하기 위한 ALTER문 예제
+            - 방법1
+                - ALTER TABLE 테이블이름 MODIFY COLUMN 필드이름 필드타입 PRIMARY KEY
+            - 방법2(별도의 제약조건이름 옵션)
+                - ALTER TABLE 테이블이름 ADD CONSTRAINT 제약조건이름 PRIMARY KEY (필드이름)
+    - FOREIGN KEY
+        - 외래 키라고 부르며, 한 테이블을 다른 테이블과 연결해주는 역할
+            - 기준이 되는 다른 테이블의 내용을 참조해서 레코드가 입력
+            - 하나의 테이블을 다른 테이블에 의존하게 만드는 것
+            - 다른 테이블의 필드는 반드시 UNIQUE나 PRIMARY KEY 제약 조건이어야 함
+        - 문법
+            - CREATE TABLE 테이블이름 ( 필드명 필드타입,…, FOREIGN KEY (필드이름) REFERENCES 참조테이블명 (참조필드명) [ON DELETE/UPDATE CASCADE] );
+        - 참조되는 테이블에서 데이터의 수정이나 삭제가 발생시 영향
+            - ON DELETE
+            - ON UPDATE
+            - 기본값은 delete, update 모두 restrict옵션이 걸려 있으므로, 변경하고 싶다면 각각 지정필요
+        - 위 설정시 동작옵션
+            - CASCADE
+                - 참조되는 테이블에서 데이터를 삭제/수정하면 같이 삭제/수정
+            - SET NULL
+                - 참조되는 테이블에서 데이터를 삭제/수정하면 데이터는 NULL로 변경
+            - RESTRICT
+                - 자식테이블(post)의 데이터가 남아 있으면, pk 데이터 수정/삭제 불가
+                - 동작옵션을 주지 않으면 기본은 RESTRICT
+        - ON UPDATE CASCADE
+            - 외래키 제약조건에서 ON UPDATE CASCADE 옵션
+            - POST 테이블에 ON UPDATE CASECADE 설정
+                - 먼저, 기존의 foreign key제약조건을 조회 후 삭제
+                    - SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME = 'post';
+                    - ALTER TABLE post DROP FOREIGN KEY post_ibfk_1;
+            - 새롭게 제약조건 추가
+                - ALTER TABLE post ADD CONSTRAINT post_author_fk FOREIGN KEY (author_id) REFERENCES author(id) ON UPDATE CASCADE;
+            - 테스트
+                - 삭제
+                    - 삭제불가
+                    - restrict와 동일
+                - 수정
+                    - author 테이블의 id 수정시 post테이블의 id도 같이 수정
+        - ON DELETE CASCADE
+            - 외래키 제약조건에서 ON DELETE CASCADE등의 옵션
+            - ON DELETE CASCADE 테스트
+                - 제약조건 제거
+                    - ALTER TABLE post DROP FOREIGN KEY post_author_fk
+                - index별도로 제거
+                    - ALTER TABLE post DROP INDEX post_author_fk;
+                - ON UPDATE와 ON DELETE 모두 제약조건에 CASCADE옵션 부여시
+                    - ALTER TABLE post ADD CONSTRAINT post_author_fk FOREIGN KEY (author_id) REFERENCES author(id) ON DELETE CASCADE ON UPDATE CASCADE;
+                - 삭제 시
+                    - author 삭제시 post 같이 삭제
+                - 수정 시
+                    - author테이블의 id 같이 수정
+            - ON DELETE SET NULL, ON UPDATE SET NULL 또한 동일 방법으로 테스트
+                - ALTER TABLE post ADD CONSTRAINT post_author_fk FOREIGN KEY (author_id) REFERENCES author(id) ON DELETE SET NULL;
+                - ALTER TABLE post ADD CONSTRAINT post_author_fk FOREIGN KEY (author_id) REFERENCES author(id) ON UPDATE SET NULL;
+    - DEFAULT
+        - 데이터를 입력할 때 해당 필드 값을 전달하지 않으면, 자동으로 설정된 기본값을 저장
+        - 문법
+            - CREATE TABLE author ( ID INT, Name VARCHAR(30) DEFAULT 'Anonymous');
+        - 시간 세팅시 가장 많이 사용
+            - ALTER TABLE author ADD column created_at DATETIME DEFAULT CURRENT_TIMESTAMP;
+            - ALTER TABLE post ADD column created_at DATETIME DEFAULT CURRENT_TIMESTAMP;
+- 흐름제어
+    
+    - CASE
+        - CASE value WHEN [compare_value] THEN result WHEN [compare_value] THEN result ... ELSE result END
+        - CASE와 END로 이루어져있고, 원하는 조건내에 존재하지 않으면 ELSE문을 타고, ELSE문이 없을경우 null을 return
+    - IF()
+        - IF(a, b, c)
+        - 만약 a이 참이면 b를 반환하고, 거짓이면 c를 반환합니다.
+        - SELECT IF(0 < 1, 'yes', ‘no’);
+        - 예시) SELECT id, title, contents, IF(author_id = 1, 'Author One', 'Other Author') AS author_name FROM posts;
+    - IFNULL(a, b)
+        - 만약 a의 값이 NULL이 아니면 a 그 자체를 반환하고, NULL이면 b를 반환
+        - 예시) SELECT id, IFNULL(title, 'No Title') AS post_title, contents, author_id FROM posts;

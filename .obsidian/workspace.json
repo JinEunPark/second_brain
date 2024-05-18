@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/돌게임3.md",
+                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/돌게임3.md",
+                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/돌게임3.md",
+                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/돌게임3.md"
+                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md"
               }
             }
           },
@@ -159,8 +159,27 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Resource/알고리즘/카드구매하기.md",
+    "link_images/Pasted image 20240518172221.png",
+    "link_images/Pasted image 20240518172211.png",
+    "link_images/Pasted image 20240518172159.png",
+    "link_images/Pasted image 20240518172124.png",
+    "link_images/Pasted image 20240518172057.png",
+    "link_images/Pasted image 20240518172054.png",
+    "link_images/Pasted image 20240518172044.png",
+    "link_images/Pasted image 20240518172028.png",
+    "link_images/Pasted image 20240518172013.png",
+    "link_images/Pasted image 20240518171957.png",
+    "link_images/Pasted image 20240518171933.png",
+    "Resource/DATABASE/mariaDB/mariaDB 기본.md",
+    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+    "Resource/LINUX/리눅스 기본 명령어.md",
+    "Resource/DATABASE/mariaDB",
     "Resource/알고리즘/돌게임3.md",
+    "Resource/LINUX",
+    "Resource/DATABASE",
+    "Resource/Untitled.md",
+    "Resource/Untitled 1.md",
+    "Resource/알고리즘/카드구매하기.md",
     "Resource/알고리즘/스티커.md",
     "Resource/알고리즘/피보나치의 확장.md",
     "Resource/알고리즘/삼각 그래프.md",
@@ -179,32 +198,13 @@
     "Projects/소마 준비하기.md",
     "Resource/알고리즘/큰수 만들기.md",
     "Resource/알고리즘/키패드 누르기.md",
-    "Resource/알고리즘/자두나무.md",
-    "Resource/알고리즘/극장좌석.md",
-    "Resource/알고리즘/1, 2, 3 더하기 3.md",
-    "Resource/알고리즘/포도주 시식.md",
-    "Resource/알고리즘/계단 올라가기.md",
-    "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
     "Projects/think_drink_renewal",
-    "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
-    "link_images/Pasted image 20240408224434.png",
     "Projects/pos",
-    "link_images/스크린샷 2024-02-26 오후 3.14.14.png",
-    "link_images/스크린샷 2024-02-26 오후 1.25.06.png",
     "Projects/리눅스마스터1급",
-    "link_images/스크린샷 2024-02-04 오후 3.17.21.png",
-    "link_images/스크린샷 2023-11-14 오후 4.35.50.png",
     "Resource/비즈테크",
-    "link_images/스크린샷 2024-01-31 오전 10.51.37.png",
-    "link_images/스크린샷 2024-01-14 오후 4.37.51.png",
-    "link_images/스크린샷 2024-01-14 오후 4.31.46.png",
     "Resource/SQL",
-    "Pasted image 20231218005433.png",
     "link_images",
     "Resource/saffy 대비",
-    "Resource/ICT",
-    "Resource/알고리즘",
-    "Resource",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
