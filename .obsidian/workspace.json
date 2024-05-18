@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/내리막길.md",
+                "file": "Resource/알고리즘/카드구매하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/내리막길.md",
+                "file": "Resource/알고리즘/카드구매하기.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/내리막길.md",
+                "file": "Resource/알고리즘/카드구매하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/내리막길.md"
+                "file": "Resource/알고리즘/카드구매하기.md"
               }
             }
           },
@@ -157,26 +158,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9aa2b4203c9fafb4",
+  "active": "edebde84a8cfce3f",
   "lastOpenFiles": [
-    "Projects/답변.md",
-    "Resource/알고리즘/내리막길.md",
+    "Resource/알고리즘/스티커.md",
+    "Resource/알고리즘/피보나치의 확장.md",
+    "Resource/알고리즘/삼각 그래프.md",
+    "Resource/알고리즘/LCS 알고리즘.md",
+    "Resource/알고리즘/제곱수합.md",
+    "Resource/알고리즘/동전.md",
+    "Resource/알고리즘/가장 큰 정사각형.md",
+    "Resource/알고리즘/팰린드롬.md",
+    "Resource/알고리즘/암호코드.md",
     "Resource/알고리즘/동전2.md",
+    "Resource/알고리즘/내리막길.md",
+    "Projects/답변.md",
     "Projects/면접 준비.md",
     "Resource/알고리즘/쉬운 계단 수.md",
     "Resource/알고리즘/1로 만들기 2.md",
     "Projects/소마 준비하기.md",
-    "Resource/알고리즘/암호코드.md",
-    "Resource/알고리즘/팰린드롬.md",
-    "Resource/알고리즘/가장 큰 정사각형.md",
-    "Resource/알고리즘/동전.md",
-    "Resource/알고리즘/제곱수합.md",
     "Resource/알고리즘/큰수 만들기.md",
     "Resource/알고리즘/키패드 누르기.md",
-    "Resource/알고리즘/LCS 알고리즘.md",
-    "Resource/알고리즘/삼각 그래프.md",
-    "Resource/알고리즘/피보나치의 확장.md",
-    "Resource/알고리즘/스티커.md",
     "Resource/알고리즘/자두나무.md",
     "Resource/알고리즘/카드구매하기.md",
     "Resource/알고리즘/극장좌석.md",
