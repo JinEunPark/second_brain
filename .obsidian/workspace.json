@@ -157,44 +157,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "0f5a627858c0d4c3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "93002757edd905cd",
-        "type": "window",
-        "children": [
-          {
-            "id": "bb8501ff78332851",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f771afeca6a836f7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Projects/답변.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 244,
-        "y": 32,
-        "width": 1436,
-        "height": 1010,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
     "Resource/알고리즘/동전2.md",
