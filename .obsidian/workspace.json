@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/구간합 구하기(이차원).md",
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/구간합 구하기(이차원).md",
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/구간합 구하기(이차원).md",
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/구간합 구하기(이차원).md"
+                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md"
               }
             }
           },
@@ -159,8 +159,15 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Resource/알고리즘/돌게임3.md",
+    "Resource/알고리즘/RGB.md",
+    "Resource/알고리즘/직사각형 채우기.md",
+    "Resource/알고리즘/3+2+1.md",
+    "Resource/알고리즘/계단 올라가기.md",
+    "Resource/알고리즘/bfs 다차원 방문 체크 배열을 가지는 경우 2.md",
+    "Resource/알고리즘/다익스트라 알고리즘.md",
+    "Resource/알고리즘/위상 정렬알고리즘 정리하기.md",
     "Resource/알고리즘/구간합 구하기(이차원).md",
+    "Resource/알고리즘/돌게임3.md",
     "Resource/DATABASE/redis.md",
     "link_images/Pasted image 20240518172453.png",
     "Resource/DATABASE/mariaDB/mariaDB 심화.md",
@@ -191,13 +198,6 @@
     "Resource/알고리즘/팰린드롬.md",
     "Resource/알고리즘/암호코드.md",
     "Resource/알고리즘/동전2.md",
-    "Resource/알고리즘/내리막길.md",
-    "Projects/답변.md",
-    "Projects/면접 준비.md",
-    "Resource/알고리즘/쉬운 계단 수.md",
-    "Resource/알고리즘/1로 만들기 2.md",
-    "Projects/소마 준비하기.md",
-    "Resource/알고리즘/큰수 만들기.md",
     "Projects/think_drink_renewal",
     "Projects/pos",
     "Projects/리눅스마스터1급",
