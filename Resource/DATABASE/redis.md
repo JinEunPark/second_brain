@@ -1,0 +1,116 @@
+![[Pasted image 20240518172453.png]]
+- Redis (Remote Dictionary Server) 개요
+    - 고성능의 키-값(key-value) 저장소로, 거대한 맵(Map) 데이터 저장소형태를 가지고 데이터를 메모리에 저장하여 빠른 읽기와 쓰기를 지원
+    - 주로 캐싱, 세션 관리, DB동시성 제어 등에서 다양한 목적으로 사용
+- 레디스 주요 특징
+    - key-value로 구성된 단순화된 데이터 구조로 sql 쿼리 사용 불필요
+    - 빠른 성능
+        - 인메모리 NoSQL 데이터베이스 로서 빠른 성능
+        - key-value는 구조적으로 해시 테이블 사용함으로서 매우 빠른 속도로 데이터 검색 가능
+    - Single Thread 구조로 동시성 이슈 발생X
+    - 윈도우 서버에서는 지원하지 않고, linux서버 및 macOS등에서 사용 가능
+- 자료구조
+    - String, Lists, Sets, Sorted Sets, Hashes 등의 자료 구조를 지원
+    - **Strings**
+        - 텍스트나 숫자 데이터 저장
+        - 가장 일반적인 key - value 구조의 형태
+    - **Lists**
+        - 순서가 있는 문자열 목록
+    - **Sets**
+        - 중복을 허용하지 않는 문자열 집합
+    - **Sorted Sets**
+        - 점수가 할당된 문자열로 이루어진 집합, 정렬된 순서로 관리
+    - **Hashes**
+        - 키-값 쌍으로 이루어진 데이터 구조
+- 설치 및 기본명령어
+    - sudo apt-get update
+    - sudo apt-get install -y redis-server
+        - redis-server --version
+    - 서버 시작
+        - sudo systemctl start redis-server
+    - 접속
+        - redis-cli
+    - 데이터베이스는 0~15까지로 16개로 구성
+        - select 데이터베이스숫자
+        - 최초 접속시 default 0번
+    - 주요 명령어
+        - 모든 key값 조회
+            - keys *
+        - 키 삭제
+            - DEL key
+            - 전체 삭제는 FLUSHDB(현재 데이터베이스의 모든 key삭제)
+        - String관련
+            - 키에 값을 설정
+                - SET key value
+            - 키의 값을 가져옴
+                - GET key
+            - NX 문법
+                - SET if Not eXists
+                - set key value nx
+            - EX 문법
+                - 만료시간
+                - set key value nx ex 초단위시간
+                - “EXPIRE key네임 3600” 이런식으로 별도 부여 가능
+        - SET관련
+            - 고유한 사용자 ID 목록, 이벤트에서 한 번만 참여할 수 있는 사용자 관리 등에 사용 가능
+            - set(집합)에 멤버 추가
+                - SADD myset member
+            - set(집합)의 모든 멤버 반환
+                - SMEMBERS myset
+            - set의 멤버 개수 반환
+                - SCARD myset
+            - 특정 멤버 삭제
+                - SREM myset member1 member2
+        - zset(정렬된 집합)
+            - 주식, 코인 등의 실시간 시세 또는 게임등의 사용자의 점수나 순위를 관리
+            - 기본 문법
+                - ZADD key score member
+                    - score : 멤버를 정렬하는 데 사용되는 점수
+                    - member형식을 json형식으로도 가능
+                        - ex)zadd my_key ‘{”hello”:”world”}’
+                - ZREM key member
+                    - 특정키의 특정멤버 삭제
+                - ZRANK key member
+                    - 특정멤버의 위치 정보 반환
+                - ZRANGE stock_prices 0 -1
+                    - score기준 오름차순 조회
+                - ZREVRANGE stock_prices 0 -1
+                    - score기준 내림차순 조회
+        - list
+            - Redis 리스트는 간단한 메시징 큐로 사용될 수 있음.
+            - 예를 들어) 작업 스케줄링, 최근 웹사이트 방문 캐싱 등
+                - 데이터 추가 : LPUSH, RPUSH
+                - 데이터 추출 : LPOP key, RPOP key
+                - 데이터 개수 : LLEN key
+        - TTL(Time To Live), 즉 유효시간 사용
+            - 만료시간 지정
+                - EXPIRE mykey 3600
+                - 여기서 만료시간은 초단위
+            - ttl [key]
+                - 남은 만료시간 확인
+- 사례 실습
+    - counter 값을 활용한 increment 시키기
+        - SET mycounter 0
+        - INCR mycounter 또는 DECR mycounter
+        - GET mycounter
+        - 적용 가능 서비스
+            - 좋아요 기능을 위한 increment값을 빠르게 반영할수 있고, 추후 RDB에 업데이트 가능
+    - 세션데이터 insert 및 get
+        - SET session:세션번호 [hello1@naver.com](mailto:hello1@naver.com) ex 3600
+        - GET session:세션번호
+        - 만약 데이터가 없을경우 null return
+    - redis를 통한 동시성 이슈 해결
+        - Redis를 잠금(Lock) 메커니즘으로 사용
+            - SET item_stock_lockk user_email NX EX 30
+            - GET item_stock_lockk 를 통해 lock여부 확인
+            - DEL item_stock_lockk
+    - list를 활용한 기능 사용
+        - 웹사이트 최근방문 또는 최근 살펴본 상품 리스트 등 구현 가능
+            - rpush, rpop을 통해 구현
+    - zset활용한 예매 시스템 구현
+        - 순차적으로 데이터 정렬 필요
+        - 전체 데이터의 개수와 나의 위치를 빠르게 찾을 수 있어야함
+        - zadd reservation_key 시간 이메일
+        - rank 체크
+        - rank가 0일경우 삭제
+    - 

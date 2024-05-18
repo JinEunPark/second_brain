@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+                "file": "Resource/알고리즘/돌게임3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+                "file": "Resource/알고리즘/돌게임3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+                "file": "Resource/알고리즘/돌게임3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/mariaDB 심화.md"
+                "file": "Resource/알고리즘/돌게임3.md"
               }
             }
           },
@@ -159,19 +159,19 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
+    "Resource/DATABASE/redis.md",
+    "link_images/Pasted image 20240518172453.png",
+    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+    "link_images/Pasted image 20240518172356.png",
+    "link_images/Pasted image 20240518172342.png",
+    "link_images/Pasted image 20240518172326.png",
     "link_images/Pasted image 20240518172221.png",
     "link_images/Pasted image 20240518172211.png",
     "link_images/Pasted image 20240518172159.png",
     "link_images/Pasted image 20240518172124.png",
     "link_images/Pasted image 20240518172057.png",
     "link_images/Pasted image 20240518172054.png",
-    "link_images/Pasted image 20240518172044.png",
-    "link_images/Pasted image 20240518172028.png",
-    "link_images/Pasted image 20240518172013.png",
-    "link_images/Pasted image 20240518171957.png",
-    "link_images/Pasted image 20240518171933.png",
     "Resource/DATABASE/mariaDB/mariaDB 기본.md",
-    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "Resource/LINUX/리눅스 기본 명령어.md",
     "Resource/DATABASE/mariaDB",
     "Resource/알고리즘/돌게임3.md",
@@ -197,7 +197,6 @@
     "Resource/알고리즘/1로 만들기 2.md",
     "Projects/소마 준비하기.md",
     "Resource/알고리즘/큰수 만들기.md",
-    "Resource/알고리즘/키패드 누르기.md",
     "Projects/think_drink_renewal",
     "Projects/pos",
     "Projects/리눅스마스터1급",

@@ -426,11 +426,11 @@
             
         - 데이터베이스와 스토리지를 n개로 분리하여 데이터 분산 저장
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cb949b7b-7dd8-4f60-8762-5f9522635195/2ec9f0e9-0557-460c-b0b2-9e8e0b3e29e6/Untitled.png)
+            ![[Pasted image 20240518172326.png]]
             
         - 샤딩전략
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cb949b7b-7dd8-4f60-8762-5f9522635195/82401766-866b-4e65-89c9-540f91d9094e/Untitled.png)
+            ![[Pasted image 20240518172342.png]]
             
             - Hash sharding
                 - DB 서버가 추가 될 경우 해쉬 함수가 변경
@@ -438,7 +438,7 @@
                 - 목적지 shard와 id range만을 지정하므로, 서버 추가시 용이
     - HA구성
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cb949b7b-7dd8-4f60-8762-5f9522635195/2761e6b7-8a45-4a25-9b5e-e0e8f2ea29a6/Untitled.png)
+        ![[Pasted image 20240518172356.png]]
         
         - HA(High Availablity)는 고가용성을 뜻하는 것으로 장애없는 지속가능한 서비스를 지칭하고, 서버의 다중화 구성을 의미
         - MySQL 프록시 및 로드 밸런서
