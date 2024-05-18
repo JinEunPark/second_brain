@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/카드구매하기.md",
+                "file": "Resource/알고리즘/돌게임3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/카드구매하기.md",
+                "file": "Resource/알고리즘/돌게임3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/카드구매하기.md",
+                "file": "Resource/알고리즘/돌게임3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/카드구매하기.md"
+                "file": "Resource/알고리즘/돌게임3.md"
               }
             }
           },
@@ -158,8 +157,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "edebde84a8cfce3f",
+  "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
+    "Resource/알고리즘/카드구매하기.md",
+    "Resource/알고리즘/돌게임3.md",
     "Resource/알고리즘/스티커.md",
     "Resource/알고리즘/피보나치의 확장.md",
     "Resource/알고리즘/삼각 그래프.md",
@@ -179,13 +180,11 @@
     "Resource/알고리즘/큰수 만들기.md",
     "Resource/알고리즘/키패드 누르기.md",
     "Resource/알고리즘/자두나무.md",
-    "Resource/알고리즘/카드구매하기.md",
     "Resource/알고리즘/극장좌석.md",
     "Resource/알고리즘/1, 2, 3 더하기 3.md",
     "Resource/알고리즘/포도주 시식.md",
     "Resource/알고리즘/계단 올라가기.md",
     "Resource/알고리즘/가장 긴 증가하는 부분 수열 4.md",
-    "Resource/알고리즘/임시2.md",
     "Projects/think_drink_renewal",
     "link_images/스크린샷 2024-04-09 오후 2.11.20.png",
     "link_images/Pasted image 20240408224434.png",
