@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
+                "file": "Projects/ESAT/ESAT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
+                "file": "Projects/ESAT/ESAT.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
+                "file": "Projects/ESAT/ESAT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/중복 개념 및 계산 공식 정리.md"
+                "file": "Projects/ESAT/ESAT.md"
               }
             }
           },
@@ -159,6 +159,9 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
+    "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
+    "Projects/ESAT/ESAT.md",
+    "Projects/ESAT",
     "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/직사각형 채우기.md",
     "Resource/알고리즘/3+2+1.md",
@@ -196,15 +199,12 @@
     "Resource/알고리즘/동전.md",
     "Resource/알고리즘/가장 큰 정사각형.md",
     "Resource/알고리즘/팰린드롬.md",
-    "Resource/알고리즘/암호코드.md",
-    "Resource/알고리즘/동전2.md",
     "Projects/think_drink_renewal",
     "Projects/pos",
     "Projects/리눅스마스터1급",
     "Resource/비즈테크",
     "Resource/SQL",
     "link_images",
-    "Resource/saffy 대비",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
