@@ -111,6 +111,7 @@ select * from author where id = 1000000;
 
 314ms 정도 수행되었다.
 
+
 ### Trouble
 
 
