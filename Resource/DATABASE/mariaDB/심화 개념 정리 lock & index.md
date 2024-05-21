@@ -111,6 +111,18 @@ select * from author where id = 1000000;
 
 314ms 정도 수행되었다.
 
+```sql
+#인덱스 생성  
+create index email_index on author(email);  
+select * from author where id=1000000;
+```
+
+![[스크린샷 2024-05-21 오후 5.06.14.png]]
+
+약 10배정도의 차이가 발생한다. 상당히 빨라짐
+
+과연 데이터를 추가할 때 마자 인덱스 페이지에도 데이터를 추가해야한다. 그러므로 오히려 데이터를 추가할 때 더 많은 시간이 소요된다.
+
 
 ### Trouble
 
