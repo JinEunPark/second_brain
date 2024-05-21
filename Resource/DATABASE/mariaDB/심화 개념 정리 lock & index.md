@@ -55,7 +55,61 @@ aliases:
 
 ### Study
 
+```sql
+create database board2;  
+use board2;  
+#index 생성문  
+#create index 인덱스명 on 테이블(컬럼명);  
+  
+#index 조회  
+# show index fronm 테이블명  
+  
+# index 삭제문  
+# alter table 테이블명 drop index 인덱스명
+create table author(  
+id bigint(20) not null auto_increment,  
+email varchar(225) default null,  
+primary key (id)  
+);  
+  
+  
+  
+DELIMITER //  
+CREATE PROCEDURE insert_authors()  
+BEGIN  
+DECLARE i INT DEFAULT 1;  
+DECLARE email VARCHAR(100);  
+DECLARE batch_size INT DEFAULT 10000; -- 한 번에 삽입할 행 수  
+DECLARE max_iterations INT DEFAULT 100; -- 총 반복 횟수 (100000000 / batch_size)DECLARE iteration INT DEFAULT 1;  
+WHILE iteration <= max_iterations DO  
+START TRANSACTION;  
+WHILE i <= iteration * batch_size DO  
+SET email = CONCAT('seonguk', i, '@naver.com');  
+INSERT INTO author (email) VALUES (email);  
+SET i = i + 1;  
+END WHILE;  
+COMMIT;  
+SET iteration = iteration + 1;  
+DO SLEEP(0.1); -- 각 트랜잭션 후 0.1초 지연  
+END WHILE;  
+END //  
+DELIMITER ;  
+  
+call insert_authors();  
+  
+  
+select * from author where id = 1000000;
 
+```
+
+
+인덱스가 없는 테이블을 생성하고 프로스저를 이용해서 약 100만건의 데이터를 삽입했다.
+
+이후 where 절의 실행과 동작 시간.
+
+![[스크린샷 2024-05-21 오후 4.48.32.png]]
+
+314ms 정도 수행되었다.
 
 ### Trouble
 
