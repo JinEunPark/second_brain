@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ESAT/ESAT.md",
+                "file": "Resource/알고리즘/색상환.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ESAT/ESAT.md",
+                "file": "Resource/알고리즘/색상환.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ESAT/ESAT.md",
+                "file": "Resource/알고리즘/색상환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ESAT/ESAT.md"
+                "file": "Resource/알고리즘/색상환.md"
               }
             }
           },
@@ -159,6 +159,11 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
+    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
+    "Resource/알고리즘/색상환.md",
+    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+    "Resource/DATABASE/mariaDB/mariaDB 기본.md",
+    "Projects/ESAT/ESAT.md",
     "Resource/mariadb_syntax/8.join.sql",
     "Resource/mariadb_syntax/7.DB동시성이슈.sql",
     "Resource/mariadb_syntax/6.transaction.sql",
@@ -169,7 +174,6 @@
     "Resource/mariadb_syntax/1.DDL.sql",
     "Resource/mariadb_syntax",
     "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
-    "Projects/ESAT/ESAT.md",
     "Projects/ESAT",
     "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/직사각형 채우기.md",
@@ -182,7 +186,6 @@
     "Resource/알고리즘/돌게임3.md",
     "Resource/DATABASE/redis.md",
     "link_images/Pasted image 20240518172453.png",
-    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
     "link_images/Pasted image 20240518172326.png",
@@ -192,9 +195,7 @@
     "link_images/Pasted image 20240518172124.png",
     "link_images/Pasted image 20240518172057.png",
     "link_images/Pasted image 20240518172054.png",
-    "Resource/DATABASE/mariaDB/mariaDB 기본.md",
     "Resource/LINUX/리눅스 기본 명령어.md",
-    "Resource/DATABASE/mariaDB",
     "Resource/Untitled.md",
     "Resource/Untitled 1.md",
     "Resource/알고리즘/카드구매하기.md",
@@ -204,7 +205,6 @@
     "Resource/알고리즘/LCS 알고리즘.md",
     "Resource/알고리즘/제곱수합.md",
     "Resource/알고리즘/동전.md",
-    "Resource/알고리즘/가장 큰 정사각형.md",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
