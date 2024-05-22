@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
+                "file": "Resource/알고리즘/N 과 M(5).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
+                "file": "Resource/알고리즘/N 과 M(5).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
+                "file": "Resource/알고리즘/N 과 M(5).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md"
+                "file": "Resource/알고리즘/N 과 M(5).md"
               }
             }
           },
@@ -158,12 +157,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "edebde84a8cfce3f",
+  "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
+    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
+    "Resource/알고리즘/N 과 M(5).md",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
     "Resource/알고리즘/색상환.md",
-    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
     "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "Resource/DATABASE/mariaDB/mariaDB 기본.md",
     "Projects/ESAT/ESAT.md",
@@ -196,7 +196,6 @@
     "link_images/Pasted image 20240518172211.png",
     "link_images/Pasted image 20240518172159.png",
     "link_images/Pasted image 20240518172124.png",
-    "link_images/Pasted image 20240518172057.png",
     "Resource/LINUX/리눅스 기본 명령어.md",
     "Resource/Untitled.md",
     "Resource/Untitled 1.md",
