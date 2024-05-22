@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/N 과 M(5).md",
+                "file": "Projects/ban_ban/errors/DB postgreSql version error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/N 과 M(5).md",
+                "file": "Projects/ban_ban/errors/DB postgreSql version error.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/N 과 M(5).md",
+                "file": "Projects/ban_ban/errors/DB postgreSql version error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/N 과 M(5).md"
+                "file": "Projects/ban_ban/errors/DB postgreSql version error.md"
               }
             }
           },
@@ -159,8 +159,13 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
+    "Projects/ban_ban/ban_ban 에러 모음.md",
+    "Projects/ban_ban/errors/DB postgreSql version error.md",
+    "Projects/ban_ban/Untitled.md",
+    "Projects/ban_ban/errors",
+    "Projects/ban_ban/Member Entity TDD.md",
     "Resource/알고리즘/N 과 M(5).md",
+    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
     "Resource/알고리즘/색상환.md",
@@ -177,7 +182,6 @@
     "Resource/mariadb_syntax/1.DDL.sql",
     "Resource/mariadb_syntax",
     "Resource/알고리즘/중복 개념 및 계산 공식 정리.md",
-    "Projects/ESAT",
     "Resource/알고리즘/RGB.md",
     "Resource/알고리즘/직사각형 채우기.md",
     "Resource/알고리즘/3+2+1.md",
@@ -201,10 +205,6 @@
     "Resource/Untitled 1.md",
     "Resource/알고리즘/카드구매하기.md",
     "Resource/알고리즘/스티커.md",
-    "Resource/알고리즘/피보나치의 확장.md",
-    "Resource/알고리즘/삼각 그래프.md",
-    "Resource/알고리즘/LCS 알고리즘.md",
-    "Resource/알고리즘/제곱수합.md",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
