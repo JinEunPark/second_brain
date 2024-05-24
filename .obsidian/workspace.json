@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/알고리즘/클럼엘 코드.md",
+                "file": "Resource/알고리즘/멀티스레드 구현.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/클럼엘 코드.md",
+                "file": "Resource/알고리즘/멀티스레드 구현.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/클럼엘 코드.md",
+                "file": "Resource/알고리즘/멀티스레드 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/클럼엘 코드.md"
+                "file": "Resource/알고리즘/멀티스레드 구현.md"
               }
             }
           },
@@ -160,7 +160,7 @@
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
     "Resource/알고리즘/소수의 연속합.md",
-    "Resource/알고리즘/클럼엘 코드.md",
+    "Resource/알고리즘/멀티스레드 구현.md",
     "Resource/알고리즘/타겟넘버.md",
     "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
