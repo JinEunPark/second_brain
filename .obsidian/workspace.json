@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ban_ban/Member Entity TDD.md",
+                "file": "Resource/DATABASE/redis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ban_ban/Member Entity TDD.md",
+                "file": "Resource/DATABASE/redis.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ban_ban/Member Entity TDD.md",
+                "file": "Resource/DATABASE/redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ban_ban/Member Entity TDD.md"
+                "file": "Resource/DATABASE/redis.md"
               }
             }
           },
@@ -159,22 +159,22 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Projects/ban_ban/think drink renewal.md",
+    "Resource/DATABASE/mariaDB/mariaDB 기본.md",
+    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
+    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
     "Projects/ban_ban/Member Entity TDD.md",
+    "Projects/ban_ban/think drink renewal.md",
     "Projects/ban_ban/ban_ban 에러 모음.md",
     "Projects/ban_ban/errors/DB postgreSql version error.md",
     "Resource/알고리즘/멀티스레드 구현.md",
     "Resource/알고리즘/소수의 연속합.md",
     "Resource/알고리즘/타겟넘버.md",
-    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
-    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
     "Projects/ban_ban/Untitled.md",
     "Projects/ban_ban/errors",
     "Resource/알고리즘/N 과 M(5).md",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
     "Resource/알고리즘/색상환.md",
-    "Resource/DATABASE/mariaDB/mariaDB 기본.md",
     "Projects/ESAT/ESAT.md",
     "Resource/mariadb_syntax/8.join.sql",
     "Resource/mariadb_syntax/7.DB동시성이슈.sql",
