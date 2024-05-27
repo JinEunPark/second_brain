@@ -30,7 +30,7 @@
         - sudo systemctl start redis-server
     - 접속
         - redis-cli
-    - 데이터베이스는 0~15까지로 16개로 구성
+    - 데이터베이스는 0~15까지로 16개로 구성 (각 데이터 베이스에 관념적으로 사용되는 용도가 있음)
         - select 데이터베이스숫자
         - 최초 접속시 default 0번
     - 주요 명령어
