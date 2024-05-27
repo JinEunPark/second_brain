@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3da50cfcb313f449",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md"
               }
             }
           },
@@ -171,10 +157,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3da50cfcb313f449",
+  "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
     "conflict-files-obsidian-git.md",
+    "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
     "link_images/스크린샷 2024-05-27 오후 6.02.08 1.png",
     "link_images/스크린샷 2024-05-27 오후 6.02.08.png",
     "스크린샷 2024-01-03 오전 2.44.24.png",
