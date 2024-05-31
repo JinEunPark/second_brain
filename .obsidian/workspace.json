@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
+                "file": "Projects/vue/vue 기본.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
+                "file": "Projects/vue/vue 기본.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
+                "file": "Projects/vue/vue 기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ban_ban/ban_ban_taxi project ERD 설계.md"
+                "file": "Projects/vue/vue 기본.md"
               }
             }
           },
@@ -159,8 +159,12 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Projects/Untitled.md",
+    "Projects/vue/vue 기본.md",
+    "Projects/vue",
+    "Projects/ToyProject/Untitled.md",
     "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
+    "conflict-files-obsidian-git.md",
     "link_images/스크린샷 2024-05-27 오후 6.02.08 1.png",
     "link_images/스크린샷 2024-05-27 오후 6.02.08.png",
     "스크린샷 2024-01-03 오전 2.44.24.png",
@@ -195,11 +199,7 @@
     "Resource/mariadb_syntax/5.flow_statements.sql",
     "Resource/mariadb_syntax/4.constraint.sql",
     "Resource/mariadb_syntax/3.data_type.sql",
-    "Resource/mariadb_syntax/2.DML.sql",
     "Resource/알고리즘/프로그래머스/중복 개념 및 계산 공식 정리.md",
-    "Resource/알고리즘/백준/RGB.md",
-    "Resource/알고리즘/백준/직사각형 채우기.md",
-    "Resource/알고리즘/백준/3+2+1.md",
     "link_images/Pasted image 20240518172453.png",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
