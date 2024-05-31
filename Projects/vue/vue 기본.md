@@ -465,6 +465,52 @@
 ```js
 //mustach syntax
 {{data}} 
-// v text ㄷ
+// v text 디렉티브
 <p v-text="msg></p>
+
+// v-html
+<div v-html="<p> hi</p>"></div> 해당변수 p 테그 렌더링
+
+//v-pre 
+<div v-pre>{{msg}}z</div> -> "{{msg}}" 문자 그대로 출력
+
 ```
+
+
+--- 
+## 데이터 결합을 통한 사용자 입력 처리
+## ref()[​](https://ko.vuejs.org/api/reactivity-core#ref)
+
+전달된 값을 갖게 되고, 이것을 가리키는 단일 속성 `.value`가 있는 변경 가능한 반응형 ref 객체를 반환합니다.
+
+- **타입**:
+    
+    ```js
+    function ref<T>(value: T): Ref<UnwrapRef<T>>
+    
+    interface Ref<T> {
+      value: T
+    }
+    ```
+    
+- **세부 사항**:
+    
+    ref 객체는 반응형이며, `.value` 속성에 새 값을 할당할 수 있습니다. 즉, `.value`에 대한 모든 읽기 작업이 추적되고, 쓰기 작업은 관련 이펙트를 트리거합니다.
+    
+    객체가 ref의 값(`.value`)으로 할당되면, [reactive()](https://ko.vuejs.org/api/reactivity-core#reactive)로 내부 깊숙이(deeply) 반응하게 됩니다. 이러한 동작은 객체 내부 깊숙이 ref가 포함되어 있으면, 언래핑됨을 의미합니다.
+    
+    내부 깊숙이까지 변환되는 것을 방지하려면, [`shallowRef()`](https://ko.vuejs.org/api/reactivity-advanced.html#shallowref)를 사용해야 합니다.
+    
+- **예제**
+    
+    js
+    
+    ```
+    const count = ref(0)
+    console.log(count.value) // 0
+    
+    count.value = 1
+    console.log(count.value) // 1
+    ```
+    
+- **참고**:
