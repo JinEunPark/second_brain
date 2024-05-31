@@ -503,8 +503,6 @@
     
 - **예제**
     
-    js
-    
     ```
     const count = ref(0)
     console.log(count.value) // 0
@@ -513,4 +511,31 @@
     console.log(count.value) // 1
     ```
     
-- **참고**:
+
+- v-model 은 해당 태그의 value attribute로 자동으로 바인딩된다. 그리고 양방향 바인딩 템플릿에서 객체의 값을 변경하는 것이 가능
+- v-bind 는 템플릿에서 객체의 값을 변경하는 것이 불가능.
+
+---
+## 이벤트 리스너르 이용한 사용자 입력 처리
+- v-on 을 사용해서 이벤트를 맵핑 @{이벤트} 사용가능 
+- 이벤트 수식어 
+	- stop
+	- prevent
+	- capture
+	- self
+	- once
+	- passive
+	- exact
+	- left
+	- right
+	- middle
+---
+## 템플릿 내부 조건문 
+
+```js
+// v-if 는 조견이 변경될때마다 관련된 모든 컴포넌트를 다시 만드는 반면
+<p v-if="counter < 5" ></p>
+// v-show 는 일단 만들고 hide 옵션을 이ㅛㅇㅇ해서 숨김
+<p v-show="counter <5"></p>
+
+```
