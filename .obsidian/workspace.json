@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/vue/vue 기본.md",
+                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/vue/vue 기본.md",
+                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/vue/vue 기본.md",
+                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/vue/vue 기본.md"
+                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Projects/Untitled.md",
+    "Projects/ban_ban/errors/DB postgreSql version error.md",
+    "Projects/ban_ban/errors/@WebMvcTest 오류.md",
     "Projects/vue/vue 기본.md",
+    "Projects/Untitled.md",
     "Projects/vue",
     "Projects/ToyProject/Untitled.md",
     "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
@@ -185,7 +187,6 @@
     "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
     "Projects/ban_ban/ban_ban 에러 모음.md",
-    "Projects/ban_ban/errors/DB postgreSql version error.md",
     "Resource/알고리즘/백준/타겟넘버.md",
     "Projects/ban_ban/errors",
     "Resource/알고리즘/백준/N 과 M(5).md",
@@ -199,7 +200,6 @@
     "Resource/mariadb_syntax/5.flow_statements.sql",
     "Resource/mariadb_syntax/4.constraint.sql",
     "Resource/mariadb_syntax/3.data_type.sql",
-    "Resource/알고리즘/프로그래머스/중복 개념 및 계산 공식 정리.md",
     "link_images/Pasted image 20240518172453.png",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
