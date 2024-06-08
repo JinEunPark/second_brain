@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md",
+                "file": "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md",
+                "file": "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md",
+                "file": "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ban_ban/errors/@WebMvcTest 오류.md"
+                "file": "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md"
               }
             }
           },
@@ -159,8 +159,9 @@
   },
   "active": "9aa2b4203c9fafb4",
   "lastOpenFiles": [
-    "Projects/ban_ban/errors/DB postgreSql version error.md",
     "Projects/ban_ban/errors/@WebMvcTest 오류.md",
+    "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md",
+    "Projects/ban_ban/errors/DB postgreSql version error.md",
     "Projects/vue/vue 기본.md",
     "Projects/Untitled.md",
     "Projects/vue",
@@ -193,7 +194,6 @@
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
     "Resource/알고리즘/백준/색상환.md",
-    "Projects/ESAT/ESAT.md",
     "Resource/mariadb_syntax/8.join.sql",
     "Resource/mariadb_syntax/7.DB동시성이슈.sql",
     "Resource/mariadb_syntax/6.transaction.sql",
