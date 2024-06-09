@@ -24,9 +24,12 @@
             "id": "3f700e0264a60134",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.2"
+                "file": "Resource/알고리즘/프로그래머스/체육대회.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ban_ban/flutter/flutter Statful.md",
+                "file": "Resource/알고리즘/프로그래머스/체육대회.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ban_ban/flutter/flutter Statful.md",
+                "file": "Resource/알고리즘/프로그래머스/체육대회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ban_ban/flutter/flutter Statful.md"
+                "file": "Resource/알고리즘/프로그래머스/체육대회.md"
               }
             }
           },
