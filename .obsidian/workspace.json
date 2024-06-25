@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md",
+                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md",
+                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md",
+                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md"
+                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md"
               }
             }
           },
@@ -186,8 +186,10 @@
   },
   "active": "6ae45f1079e21c77",
   "lastOpenFiles": [
-    "Resource/이지케어텍/데이터베이스/join 속도 결정.md",
+    "link_images/스크린샷 2024-06-25 오후 2.35.36.png",
     "Resource/이지케어텍/데이터베이스/SQL 기본.md",
+    "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+    "Resource/이지케어텍/데이터베이스/join 속도 결정.md",
     "Resource/이지케어텍/데이터베이스",
     "Resource/이지케어텍",
     "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
@@ -219,8 +221,6 @@
     "Resource/알고리즘/백준",
     "Resource/DATABASE/redis.md",
     "Resource/알고리즘/프로그래머스",
-    "Resource/DATABASE/mariaDB/mariaDB 기본.md",
-    "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "Projects/ban_ban/errors",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
