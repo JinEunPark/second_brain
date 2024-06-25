@@ -33,7 +33,7 @@
 	from emp;
 	```
 	- length() 길이  |  instr(x,'y') 지정된 문자열의 위치 반환 x 라는 문자열에서 y 라는 문자의 위치를 반환 없으면 0을 반환한다.
-	- concat('answkduf', 'haegyo') 문자열 붙임
+	- concat('answkduf', 'haegyo') 문자열 붙이기 
 
 - 숫자함수 
 	- round : 반올림
