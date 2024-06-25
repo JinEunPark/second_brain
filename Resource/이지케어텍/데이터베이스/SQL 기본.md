@@ -53,3 +53,36 @@
 	```
 
 	-   **3) coalesce : null값이 안나오도록 계속 수행/ null이 나오면 다음 인수를 계산 /**
+	
+```sql 
+select 
+	coalesce(salary*12 + commission_pct, 
+	salary*12, salary)
+from employees;
+```
+
+**4) nullif : 두개의 인수값이 동일하면 null/ 동일하지 않으면 첫번째 인수값을 보여줌**
+
+```sql
+select 
+	last_name, 
+	first_name, 
+	nullif(length(last_name), 
+	length(first_name)) nullif
+from employees;
+```
+
+  **5) decode : 첫번째 인수 기준값 / 두번째 인수 비교값 / 세번째 인수 참값**
+
+```sql
+select 
+	employee_id, 
+	job_id, 
+	salary, 
+	decode(job_id, 'IT_PROG', salary*1.1)
+from employees;
+```
+
+
+
+### group by
