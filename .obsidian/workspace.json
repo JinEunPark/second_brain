@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6ae45f1079e21c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resource/이지케어텍/join 속도 결정.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/프로그래머스/체육대회.md",
+                "file": "Resource/이지케어텍/join 속도 결정.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/프로그래머스/체육대회.md",
+                "file": "Resource/이지케어텍/join 속도 결정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/프로그래머스/체육대회.md"
+                "file": "Resource/이지케어텍/join 속도 결정.md"
               }
             }
           },
@@ -171,8 +184,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f700e0264a60134",
+  "active": "6ae45f1079e21c77",
   "lastOpenFiles": [
+    "Resource/이지케어텍/join 속도 결정.md",
+    "Resource/이지케어텍",
     "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
     "Projects/ban_ban/flutter/flutter Statful.md",
     "Projects/ban_ban/Member Entity TDD.md",
@@ -205,7 +220,6 @@
     "Resource/DATABASE/mariaDB/mariaDB 기본.md",
     "Resource/DATABASE/mariaDB/mariaDB 심화.md",
     "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
-    "Resource/알고리즘/백준/타겟넘버.md",
     "Projects/ban_ban/errors",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
@@ -213,7 +227,6 @@
     "Resource/mariadb_syntax/7.DB동시성이슈.sql",
     "Resource/mariadb_syntax/6.transaction.sql",
     "Resource/mariadb_syntax/5.flow_statements.sql",
-    "Resource/mariadb_syntax/4.constraint.sql",
     "link_images/Pasted image 20240518172453.png",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
