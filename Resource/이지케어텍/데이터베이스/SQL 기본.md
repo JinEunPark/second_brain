@@ -36,8 +36,20 @@
 	- concat('answkduf', 'haegyo') 문자열 붙이기 
 
 - 숫자함수 
-	- round : 반올림
-	- trunc : 버림
-	- mod :  나머지 값 구하기
-	- 
+	- https://ittrue.tistory.com/362
+- 일반함수
+	- **1)** nvl : null 값을 실제값으로 대체하는 함수 / nvl( , )안의 값은 둘이 형이 맞아야함
+	
+	- **2) nvl2 : null값을 실제값으로 대체하는 함수**
+              **nvl2(기준값, null이 아니면 2번째 수행할 연산,  기준값이 null이면 수행할 연산)**
+	```sql
+	select 
+		salary, 
+		nvl2(commission_pct, 
+		salary * 12 + commission_pct, 
+		salary * 12)
 
+	from employees;
+	```
+
+	-   **3) coalesce : null값이 안나오도록 계속 수행/ null이 나오면 다음 인수를 계산 /**
