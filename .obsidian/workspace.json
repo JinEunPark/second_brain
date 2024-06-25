@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/이지케어텍/join 속도 결정.md",
+                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/이지케어텍/join 속도 결정.md",
+                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/이지케어텍/join 속도 결정.md",
+                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/이지케어텍/join 속도 결정.md"
+                "file": "Resource/이지케어텍/데이터베이스/SQL 기본.md"
               }
             }
           },
@@ -186,7 +186,9 @@
   },
   "active": "6ae45f1079e21c77",
   "lastOpenFiles": [
-    "Resource/이지케어텍/join 속도 결정.md",
+    "Resource/이지케어텍/데이터베이스/join 속도 결정.md",
+    "Resource/이지케어텍/데이터베이스/SQL 기본.md",
+    "Resource/이지케어텍/데이터베이스",
     "Resource/이지케어텍",
     "Projects/ban_ban/ban_ban_taxi project ERD 설계.md",
     "Projects/ban_ban/flutter/flutter Statful.md",
@@ -219,14 +221,12 @@
     "Resource/알고리즘/프로그래머스",
     "Resource/DATABASE/mariaDB/mariaDB 기본.md",
     "Resource/DATABASE/mariaDB/mariaDB 심화.md",
-    "Resource/DATABASE/mariaDB/심화 개념 정리 lock & index.md",
     "Projects/ban_ban/errors",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
     "Resource/mariadb_syntax/8.join.sql",
     "Resource/mariadb_syntax/7.DB동시성이슈.sql",
     "Resource/mariadb_syntax/6.transaction.sql",
-    "Resource/mariadb_syntax/5.flow_statements.sql",
     "link_images/Pasted image 20240518172453.png",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
