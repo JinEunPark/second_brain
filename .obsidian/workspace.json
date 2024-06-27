@@ -50,9 +50,12 @@
             "id": "8b9683c5c372de07",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -123,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/알고리즘/백준/색상환.md",
+                "file": "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/알고리즘/백준/색상환.md",
+                "file": "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/알고리즘/백준/색상환.md"
+                "file": "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md"
               }
             }
           },
@@ -196,6 +199,7 @@
   },
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
+    "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
     "Resource/알고리즘/백준/타겟넘버.md",
     "Resource/saffy 대비/코딩테스트 준비 12월 ~ 3월 까지.md",
     "Resource/오늘 푼 알고리즘 코드 임시.md",
@@ -229,7 +233,6 @@
     "Resource/알고리즘/백준/위상 정렬알고리즘 정리하기.md",
     "Resource/알고리즘/프로그래머스/멀티스레드 구현.md",
     "Resource/알고리즘/백준/소수의 연속합.md",
-    "Resource/알고리즘/프로그래머스/키패드 누르기.md",
     "Resource/알고리즘/백준",
     "Resource/알고리즘/프로그래머스",
     "Projects/ban_ban/errors",
