@@ -39,15 +39,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+                "file": "Resource/알고리즘/백준/색상환.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b9683c5c372de07",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+                "file": "Resource/알고리즘/백준/색상환.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+                "file": "Resource/알고리즘/백준/색상환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md"
+                "file": "Resource/알고리즘/백준/색상환.md"
               }
             }
           },
@@ -184,11 +194,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ae45f1079e21c77",
+  "active": "8b9683c5c372de07",
   "lastOpenFiles": [
-    "link_images/스크린샷 2024-06-25 오후 2.35.36.png",
+    "Resource/알고리즘/백준/타겟넘버.md",
+    "Resource/saffy 대비/코딩테스트 준비 12월 ~ 3월 까지.md",
+    "Resource/오늘 푼 알고리즘 코드 임시.md",
     "Resource/이지케어텍/데이터베이스/SQL 기본.md",
     "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+    "Resource/LINUX/리눅스 기본 명령어.md",
+    "link_images/스크린샷 2024-06-25 오후 2.35.36.png",
     "Resource/이지케어텍/데이터베이스/join 속도 결정.md",
     "Resource/이지케어텍/데이터베이스",
     "Resource/이지케어텍",
@@ -216,10 +230,7 @@
     "Resource/알고리즘/프로그래머스/멀티스레드 구현.md",
     "Resource/알고리즘/백준/소수의 연속합.md",
     "Resource/알고리즘/프로그래머스/키패드 누르기.md",
-    "Resource/알고리즘/프로그래머스/큰수 만들기.md",
-    "Resource/알고리즘/프로그래머스/체육대회.md",
     "Resource/알고리즘/백준",
-    "Resource/DATABASE/redis.md",
     "Resource/알고리즘/프로그래머스",
     "Projects/ban_ban/errors",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
@@ -231,7 +242,6 @@
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
     "link_images/Pasted image 20240518172326.png",
-    "link_images/Pasted image 20240518172221.png",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
