@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/씨샵/Untitled.md",
+                "file": "Resource/씨샵/기본.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/씨샵/Untitled.md",
+                "file": "Resource/씨샵/기본.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/씨샵/Untitled.md",
+                "file": "Resource/씨샵/기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/씨샵/Untitled.md"
+                "file": "Resource/씨샵/기본.md"
               }
             }
           },
@@ -200,7 +200,7 @@
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
     "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
-    "Resource/씨샵/Untitled.md",
+    "Resource/씨샵/기본.md",
     "Resource/씨샵",
     "Resource/Untitled.md",
     "Resource/알고리즘/백준/타겟넘버.md",
