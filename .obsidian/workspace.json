@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+                "file": "Resource/이지케어텍/ember/ember.js 기초.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+                "file": "Resource/이지케어텍/ember/ember.js 기초.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+                "file": "Resource/이지케어텍/ember/ember.js 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md"
+                "file": "Resource/이지케어텍/ember/ember.js 기초.md"
               }
             }
           },
@@ -199,6 +199,9 @@
   },
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
+    "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
+    "Resource/이지케어텍/ember/ember.js 기초.md",
+    "Resource/이지케어텍/ember",
     "Resource/씨샵/기본.md",
     "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
     "Resource/씨샵",
@@ -207,7 +210,6 @@
     "Resource/saffy 대비/코딩테스트 준비 12월 ~ 3월 까지.md",
     "Resource/오늘 푼 알고리즘 코드 임시.md",
     "Resource/이지케어텍/데이터베이스/SQL 기본.md",
-    "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
     "Resource/LINUX/리눅스 기본 명령어.md",
     "link_images/스크린샷 2024-06-25 오후 2.35.36.png",
     "Resource/이지케어텍/데이터베이스/join 속도 결정.md",
@@ -233,14 +235,12 @@
     "Projects/ban_ban/think drink renewal.md",
     "Resource/알고리즘/백준/다익스트라 알고리즘.md",
     "Resource/알고리즘/프로그래머스/신고결과 받기.md",
-    "Resource/알고리즘/백준/위상 정렬알고리즘 정리하기.md",
     "Resource/알고리즘/백준",
     "Resource/알고리즘/프로그래머스",
     "Projects/ban_ban/errors",
     "link_images/스크린샷 2024-05-21 오후 5.06.14.png",
     "link_images/스크린샷 2024-05-21 오후 4.48.32.png",
     "Resource/mariadb_syntax/8.join.sql",
-    "Resource/mariadb_syntax/7.DB동시성이슈.sql",
     "link_images/Pasted image 20240518172453.png",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
