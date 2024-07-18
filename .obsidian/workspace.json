@@ -52,10 +52,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resource/이지케어텍/ember/ember.js 기초.md",
+                "file": "Templates/Daily Programming.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resource/이지케어텍/ember/ember.js 기초.md",
+                "file": "Templates/Daily Programming.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resource/이지케어텍/ember/ember.js 기초.md",
+                "file": "Templates/Daily Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resource/이지케어텍/ember/ember.js 기초.md"
+                "file": "Templates/Daily Programming.md"
               }
             }
           },
@@ -199,8 +199,8 @@
   },
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
-    "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
     "Resource/이지케어텍/ember/ember.js 기초.md",
+    "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
     "Resource/이지케어텍/ember",
     "Resource/씨샵/기본.md",
     "Projects/ban_ban/flutter/ChangeNotifier 와 ChangeNotifierProvider.md",
