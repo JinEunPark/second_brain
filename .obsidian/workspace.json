@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Flutter/Untitled.md",
+                "file": "Projects/Flutter/Flutter_freezed.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Flutter/Untitled.md",
+                "file": "Projects/Flutter/Flutter_freezed.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Flutter/Untitled.md",
+                "file": "Projects/Flutter/Flutter_freezed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Flutter/Untitled.md"
+                "file": "Projects/Flutter/Flutter_freezed.md"
               }
             }
           },
@@ -200,8 +200,8 @@
   },
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
+    "Projects/Flutter/Flutter_retrofit.md",
     "Templates/Daily Programm.md",
-    "Projects/Flutter/Untitled.md",
     "스크린샷 2023-11-29 오후 1.18.20.png",
     "Archive/파트리지 시스템 면점 후기.md",
     "Projects/Flutter/Flutter_freezed.md",

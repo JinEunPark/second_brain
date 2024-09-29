@@ -1,8 +1,8 @@
 ---
 tags: 
 last updated: 
-created: <% tp.file.creation_date()%>
-due date: <% tp.date.tomorrow()%>
+creation date: 2024-09-29 18:28 
+modification date: Sunday 29th September 2024 18:31:21 
 Project: 
 aliases:
 ---

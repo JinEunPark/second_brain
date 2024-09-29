@@ -71,11 +71,18 @@ class HomeModel with _$HomeModel {
 	- 단일 필드를 적용하고 싶을때는 @JsonProperty 을 이용해서 정해주시면됩니다.
 - @Default([]) List<HomeItemModel> projects,   해당 Default annotation 을 이용하면 리스트의 초기 값을 정해주기 때문에 이를 활용할 수 있습니다.
 
+**구체적인 설명**
+
+사실 더 구체적으로 코드를 까보면 알게되겠지만  FromJson , ToJson 의 선언 부는 freezed 파일에 있고 해당 함수의 구현이 g 파일에 위치하는 것입니다. 
+
+
 
 
 ### Trouble
+
 - 장점은 코드 중복이 줄어든다는 것이다. 단점은 만약에 객체간의 비교를 모든 필드의 값을 점증하지 않고 이용해야한다면? 이 때 생성되는 boool operation 을 재정의 하면서 일부 코드의 설계가 깨지는 현상이 있습니다.
 
 
 
 ### shooting
+
