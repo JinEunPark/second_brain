@@ -1,7 +1,9 @@
 ---
 tags: 
-last updated: 
-due date: 
+last updated: ```
+created : <% tp.date.now() %>
+due date: {{date}}
+created : <% tp.file.createion_date() %>
 Project: 
 aliases:
 ---

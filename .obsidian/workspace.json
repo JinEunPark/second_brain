@@ -194,15 +194,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
-    "Projects/Untitled 1.md",
-    "Projects/Flutter/Flutter_freezed.md",
-    "Projects/Flutter",
     "Templates/Daily Programming.md",
+    "Projects/Flutter/Flutter_freezed.md",
+    "Projects/Untitled 1.md",
+    "Projects/Flutter",
     "Resource/이지케어텍/ember/ember.js 기초.md",
     "Resource/이지케어텍/데이터베이스/오라클 서버 구조.md",
     "Resource/이지케어텍/ember",
