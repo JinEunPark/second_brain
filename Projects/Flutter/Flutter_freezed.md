@@ -21,9 +21,33 @@ aliases:
 
 ### Study
 
+**설치하기**
+```dart
+flutter pub add freezed_annotation
+flutter pub add dev:build_runner
+flutter pub add dev:freezed
 
+# if using freezed to generate fromJons/toJson, also add:
 
+flutter pub add json_annotation
+flutter pub add dev:json_serialization
+```
 
+**사용법 간단 정리**
+
+```dart
+import 'package:freezed_annotation/freezed_annotation.dart';  
+import 'package:flutter/foundation.dart';  
+  
+part 'home_model.g.dart';  
+  
+part 'home_model.freezed.dart';
+```
+
+- 위 패키지 들을 임포트할 것 
+-  ```part 'home_model.g.dart'```  dladfrkf'rih'erig'q5jtn'rih
+
+  
 ### Trouble
 
 
