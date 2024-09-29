@@ -3,20 +3,20 @@
   "templates_folder": "Templates",
   "templates_pairs": [
     [
-      "",
+      "creation_date",
       ""
     ]
   ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
-  "enable_system_commands": false,
+  "enable_system_commands": true,
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Templates",
+      "template": "Templates/Daily Programming.md"
     }
   ],
   "syntax_highlighting": true,
@@ -25,6 +25,6 @@
     ""
   ],
   "startup_templates": [
-    ""
+    "Templates/Daily Programming.md"
   ]
 }

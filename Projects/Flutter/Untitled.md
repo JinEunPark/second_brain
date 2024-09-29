@@ -1,7 +1,7 @@
 ---
 tags: 
 last updated: 
-created : <% tp.date.now() %>
+created: <% tp.date.now() %>
 due date: <% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>
 Project: 
 aliases:

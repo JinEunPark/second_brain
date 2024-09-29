@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md",
+                "file": "Projects/Flutter/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md",
+                "file": "Projects/Flutter/Untitled.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md",
+                "file": "Projects/Flutter/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md"
+                "file": "Projects/Flutter/Untitled.md"
               }
             }
           },
@@ -201,6 +201,9 @@
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
     "Templates/Daily Programming.md",
+    "Projects/Flutter/Untitled.md",
+    "스크린샷 2023-11-29 오후 1.18.20.png",
+    "Archive/파트리지 시스템 면점 후기.md",
     "Projects/Flutter/Flutter_freezed.md",
     "Projects/Untitled 1.md",
     "Projects/Flutter",
@@ -230,10 +233,7 @@
     "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md",
     "Projects/ban_ban/errors/DB postgreSql version error.md",
     "Projects/vue/vue 기본.md",
-    "Projects/Untitled.md",
     "Projects/vue",
-    "Projects/ToyProject/Untitled.md",
-    "conflict-files-obsidian-git.md",
     "link_images/스크린샷 2024-05-27 오후 6.02.08 1.png",
     "link_images/스크린샷 2024-05-27 오후 6.02.08.png",
     "스크린샷 2024-01-03 오전 2.44.24.png",
@@ -245,7 +245,6 @@
     "link_images/Pasted image 20240518172453.png",
     "link_images/Pasted image 20240518172356.png",
     "link_images/Pasted image 20240518172342.png",
-    "link_images/Pasted image 20240518172326.png",
     "Untitled.canvas",
     "면접 준비.canvas",
     "YumMap.canvas"
