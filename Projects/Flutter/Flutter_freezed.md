@@ -77,7 +77,6 @@ class HomeModel with _$HomeModel {
 
 
 
-
 ### Trouble
 
 - 장점은 코드 중복이 줄어든다는 것이다. 단점은 만약에 객체간의 비교를 모든 필드의 값을 점증하지 않고 이용해야한다면? 이 때 생성되는 boool operation 을 재정의 하면서 일부 코드의 설계가 깨지는 현상이 있습니다.

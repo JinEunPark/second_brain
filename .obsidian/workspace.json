@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md",
+                "file": "Projects/Flutter/flutter_mixin.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md",
+                "file": "Projects/Flutter/flutter_mixin.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md",
+                "file": "Projects/Flutter/flutter_mixin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Flutter/Flutter_freezed.md"
+                "file": "Projects/Flutter/flutter_mixin.md"
               }
             }
           },
@@ -200,11 +200,13 @@
   },
   "active": "8b9683c5c372de07",
   "lastOpenFiles": [
+    "Projects/Flutter/flutter_copywith.md",
+    "Projects/Flutter/flutter_mixin.md",
+    "Projects/Flutter/Flutter_freezed.md",
     "Projects/Flutter/Flutter_retrofit.md",
     "Templates/Daily Programm.md",
     "스크린샷 2023-11-29 오후 1.18.20.png",
     "Archive/파트리지 시스템 면점 후기.md",
-    "Projects/Flutter/Flutter_freezed.md",
     "Projects/Untitled 1.md",
     "Projects/Flutter",
     "Resource/이지케어텍/ember/ember.js 기초.md",
@@ -232,7 +234,6 @@
     "Projects/ban_ban/flutter",
     "Projects/ban_ban/errors/unit test advice controller 우선 순위 적용 안됨.md",
     "Projects/ban_ban/errors/DB postgreSql version error.md",
-    "Projects/vue/vue 기본.md",
     "Projects/vue",
     "link_images/스크린샷 2024-05-27 오후 6.02.08 1.png",
     "link_images/스크린샷 2024-05-27 오후 6.02.08.png",
