@@ -15,6 +15,12 @@ aliases:
 
 ### background Information
 
+**dependency**
+```
+retrofit: ^4.4.1
+retrofit_generator:  ^9.1.2
+```
+
 
 
 ### Study
